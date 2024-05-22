@@ -1,0 +1,67 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{ahmed2013SDA}
+Shabbir Ahmed.
+\newblock A scenario decomposition algorithm for 0--1 stochastic programs.
+\newblock {\em Operations Research Letters}, 41(6):565--569, 2013.
+
+\bibitem{amazon2022drone}
+Amazon.
+\newblock Amazon prime air prepares for drone deliveries, 2022.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{birge2011introduction}
+John~R Birge and Francois Louveaux.
+\newblock {\em Introduction to stochastic programming}.
+\newblock Springer Science \& Business Media, 2011.
+
+\bibitem{cheng2024robust}
+Chun Cheng, Yossiri Adulyasak, and Louis-Martin Rousseau.
+\newblock Robust drone delivery with weather information.
+\newblock {\em Manufacturing \& Service Operations Management}, 2024.
+
+\bibitem{dhl2018drone}
+DHL.
+\newblock Rapid response from the air: Medicines successfully delivered using a
+  parcel drone in east africa, 2018.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{dukkanci2021minimizing}
+Okan Dukkanci, Bahar~Y Kara, and Tolga Bekta{\c{s}}.
+\newblock Minimizing energy and cost in range-limited drone deliveries with
+  speed optimization.
+\newblock {\em Transportation Research Part C: Emerging Technologies},
+  125:102985, 2021.
+
+\bibitem{dukkanci2023drones}
+Okan Dukkanci, Achim Koberstein, and Bahar~Y Kara.
+\newblock Drones for relief logistics under uncertainty after an earthquake.
+\newblock {\em European Journal of Operational Research}, 310(1):117--132,
+  2023.
+
+\bibitem{laporte1993integer}
+Gilbert Laporte and Fran{\c{c}}ois~V Louveaux.
+\newblock The integer l-shaped method for stochastic integer programs with
+  complete recourse.
+\newblock {\em Operations research letters}, 13(3):133--142, 1993.
+
+\bibitem{stolaroff2018energy}
+Joshuah~K Stolaroff, Constantine Samaras, Emma~R O’Neill, Alia Lubers,
+  Alexandra~S Mitchell, and Daniel Ceperley.
+\newblock Energy use and life cycle greenhouse gas emissions of drones for
+  commercial package delivery.
+\newblock {\em Nature communications}, 9(1):409, 2018.
+
+\bibitem{ups2017drone}
+{UPS}.
+\newblock {UPS Tests Residential Delivery Via Drone Launched From Atop Package
+  Car}, 2017.
+\newblock Accessed: 2024-05-21.
+
+\bibitem{zeng2019energy}
+Yong Zeng, Jie Xu, and Rui Zhang.
+\newblock Energy minimization for wireless communication with rotary-wing uav.
+\newblock {\em IEEE transactions on wireless communications}, 18(4):2329--2345,
+  2019.
+
+\end{thebibliography}
