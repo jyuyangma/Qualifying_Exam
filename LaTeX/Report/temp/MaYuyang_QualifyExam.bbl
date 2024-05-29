@@ -12,11 +12,13 @@
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Article
-\bibitem[{Figliozzi(2017)}]{figliozzi2017lifecycle}
-\bibinfo{author}{Figliozzi, M.A.}, \bibinfo{year}{2017}.
-\newblock \bibinfo{title}{Lifecycle modeling and assessment of unmanned aerial
-  vehicles (drones) co2e emissions}.
-\newblock \bibinfo{journal}{Transportation Research Part D: Transport and
-  Environment} \bibinfo{volume}{57}, \bibinfo{pages}{251--261}.
+\bibitem[{Dukkanci et~al.(2023)Dukkanci, Koberstein and
+  Kara}]{dukkanci2023drones}
+\bibinfo{author}{Dukkanci, O.}, \bibinfo{author}{Koberstein, A.},
+  \bibinfo{author}{Kara, B.Y.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Drones for relief logistics under uncertainty after
+  an earthquake}.
+\newblock \bibinfo{journal}{European Journal of Operational Research}
+  \bibinfo{volume}{310}, \bibinfo{pages}{117--132}.
 
 \end{thebibliography}

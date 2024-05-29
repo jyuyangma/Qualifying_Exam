@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex temp/MaYuyang_Proposal"] 1716344901.39809 "temp/MaYuyang_Proposal.aux" "temp/MaYuyang_Proposal.bbl" "temp/MaYuyang_Proposal" 1716346528.06211 0
+["bibtex temp/MaYuyang_Proposal"] 1716344901.39809 "temp/MaYuyang_Proposal.aux" "temp/MaYuyang_Proposal.bbl" "temp/MaYuyang_Proposal" 1716577736.97638 0
   "./ieee_fullname.bst" 1716318040 19904 6b03ae13cd58489efa7017b54a417775 ""
   "./references.bib" 1716327204 3478 ae7715b79ef6f34026e0c481914c5ff0 ""
-  "temp/MaYuyang_Proposal.aux" 1716346527 2440 3a49a4759c43bd9878512e5772ff514b "pdflatex"
+  "temp/MaYuyang_Proposal.aux" 1716577736 2440 3a49a4759c43bd9878512e5772ff514b "pdflatex"
   (generated)
   "temp/MaYuyang_Proposal.bbl"
   "temp/MaYuyang_Proposal.blg"
   (rewritten before read)
-["pdflatex"] 1716346527.12432 "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Report and Proposal/Proposal/MaYuyang_Proposal.tex" "MaYuyang_Proposal.pdf" "MaYuyang_Proposal" 1716346528.06245 0
+["pdflatex"] 1716577735.76448 "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Proposal/MaYuyang_Proposal.tex" "MaYuyang_Proposal.pdf" "MaYuyang_Proposal" 1716577736.97676 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136765053 960 379cc0019370a9e0208a0a3f949f847a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136765053 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -99,11 +99,11 @@
   "C:/Users/Yuyang/AppData/Roaming/MiKTeX/tex/latex/psnfss/upsy.fd" 1585253778 153 2da0acd77cba348f34823f44cabf0058 ""
   "C:/Users/Yuyang/AppData/Roaming/MiKTeX/tex/latex/psnfss/upzd.fd" 1585253778 153 b2a94082cb802f90d3daf6dd0c7188a0 ""
   "MaYuyang_Proposal.tex" 1716346526 13891 81ebf0dbe4065d62e74632198af6c6b4 ""
-  "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Report and Proposal/Proposal/MaYuyang_Proposal.tex" 1716346526 13891 81ebf0dbe4065d62e74632198af6c6b4 ""
+  "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Proposal/MaYuyang_Proposal.tex" 1716346526 13891 81ebf0dbe4065d62e74632198af6c6b4 ""
   "figure_windspeed.png" 1716343043 102404 954560bbd4c295e85a29d8bd6e7c7b7c ""
   "jm.sty" 1716303985 12779 54d85ca31c7abf4055b140aab2261062 ""
   "lxaiproposal.cls" 1716318040 6811 51d213f409c756e325da5058b17b7e62 ""
-  "temp/MaYuyang_Proposal.aux" 1716346527 2440 3a49a4759c43bd9878512e5772ff514b "pdflatex"
+  "temp/MaYuyang_Proposal.aux" 1716577736 2440 3a49a4759c43bd9878512e5772ff514b "pdflatex"
   "temp/MaYuyang_Proposal.bbl" 1716344901 2461 f4a82d53f7a91e33e049b1aa662d6e7a "bibtex temp/MaYuyang_Proposal"
   (generated)
   "MaYuyang_Proposal.pdf"

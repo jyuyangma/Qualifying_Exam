@@ -1,7 +1,7 @@
-PWD d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal
+PWD d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal
 INPUT C:\Users\Yuyang\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\MaYuyang_Proposal.tex
-OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.log
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\MaYuyang_Proposal.tex
+OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.log
 INPUT .\lxaiproposal.cls
 INPUT lxaiproposal.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
@@ -104,14 +104,14 @@ INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.aux
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.aux
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.aux
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.aux
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.aux
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.aux
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\fr\babel-fr.ini
-OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.aux
+OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -153,7 +153,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.pdf
+OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.pdf
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Yuyang\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -184,10 +184,10 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.bbl
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.bbl
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.bbl
-INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Report and Proposal\Proposal\temp\MaYuyang_Proposal.aux
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.bbl
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.bbl
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.bbl
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Proposal\temp\MaYuyang_Proposal.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb

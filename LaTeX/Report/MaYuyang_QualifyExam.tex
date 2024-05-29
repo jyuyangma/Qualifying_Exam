@@ -81,31 +81,13 @@
 
 \section{Literature Review}\label{sec:Review1}
 
-
-\section{Problem Settings}\label{sec:Review2}
-In this paper, we consider an agent needs to make a periodic strategy to locate $p$ facilities and assign mixed type of drones to each open facility. We partite drones' type based on their size (e.g. small, medium, large). Intuitively, we assume drones with bigger size will have stronger carry ability. There will be a corresponding parameter $\gamma_t$ indicating the maximal weight a drone of type $t$ can carry at a time. For the drones within the same type, we assume they share the same parameters' value like $\gamma_t$, mass tare, mass of battery and power transfer efficiency ($\eta_t$) and lift to drag (LTD) ratio $(\theta_{st})$. Consequently, there is an eligibility parameter $e_{i,k}$ to show whether a drone $k$ of type $t$ is able to carry customer $i$'s goods or not. For each customer, the weight of their demand is considered simply by the mass of the required goods. Therefore, the eligibility parameter between the customer $i$ and the drone $k$ of type $t$ can be calculated as following:
-\begin{equation}
-    e_{i,k} = 
-    \begin{cases}
-        1 & \text{if} ~ \gamma_t \geq w_i, \\
-        0 & \text{otherwise}.
-    \end{cases}
-\end{equation}
-There is also a cost $c_t$ occurs when using a drone $k$ of type $t$ during the entire period. Since a larger drone seems always to be more powerful to carry the goods, it is reasonable to set a larger value of $c_t$ compared to that of drones with smaller size. 
-
-One significant difference, between using drones to deliver and traditional delivery methods, is the range limitation of drones. According to the study in paper \cite{figliozzi2017lifecycle}, the energy used for delivery between facility $j \in J$ and demand point $i \in I$ is calculated as:
-\begin{equation} 
-    b_{ijt} = {\frac{m_t + w_i}{\theta_s \eta_t}} d_{ji} + {\frac{m_t}{ \theta_s \eta_t }} d_{ij}. \label{formula:battery_consumption}
-\end{equation}
-For a certain UAV of type $t$, we have $m_t$ (sum of battery mass and mass tare) to be deterministic. One aspect of the uncertainty of battery consumption can be reflected by the distance $d_{ij} \slash d_{ji}$ here. Let us consider the affect of weather condition. It is hard for drones to deliver under a bad weather condition like a rainy day. However, even it is a good weather like a sunny day, it will not help on delivery. Therefore, we can have the distances $d_{ij} \slash d_{ji}$ to be a random variable with lower bound to be the true distance between facility $j \in J$ and demand point $i \in I$. Another aspect of uncertainty is the weight of demand, which means we will have random demand weight $w_i$ and corresponding eligibility $e_{i,k}$.
+\section{Problem Settings}\label{sec:ProvlemSettings}
+1. \cite{dukkanci2023drones}
 
 \section{Formulations}\label{sec:formulation}
-We consider this problem as a two-stage stochastic programming problem. In the first-stage, the decision make is given a set of potential demand locations $\hat{I}$, a set of potential facility locations $J$, and set of available fully-charged drones with $T$ different types. Every drone of the type $t$ will be included in the set $K_t$. The agency's goal for the first stage is to decide where to locate $p$ facilities and how many drones of each type $t$ to use, in order to minimize the overall cost for using drones and maximize the potential weighted demand served. 
-
-For the second-stage, the true weight of each demand location $w_i$ and corresponding eligibility parameter $e_{i,k}$ are revealed. The delivery distance from facility $j$ to demand point $j$ affected by weather condition $d_{ij}/d_{ji}$ is also given. The decision maker aims to maximize the weighted demand served based on the facility location and available drones decided in the first stage. The agency will allocate resource of mass $U$ to each located facility representing the maximum amount of demand which can be served by each located facility in a planning period. $U$ can be viewed as the capacity of the facility. The capacity of a facility corresponds to the maximum amount of demand which can be served from that facility in a period of time. The limiting factor for the capacity in practice would arise from the maximum mass of resources which can be stored at each facility, equipment and building characteristics, staffing levels, etc. The agency will also assign drones to each open facility. In this paper, as typical in location problems, we do not consider the cost of transportation of packages and drones from warehouses to these locations. We assume that this cost is a constant irrespective of the configuration of the located facilities. We do not consider recharging of drone batteries during the planning period. Besides, we assume that the drone batteries are recharged overnight or in-between planning periods. The notation used in the formulation is given below. The mathematical notation used in the formulation is given below:
-
+We consider this problem as a two-stage stochastic programming problem. In the first-stage, the decision maker is given a set of potential gathering points $C$, a set of locations for potential depots $D$, a set of locations for  potential launch points $L$, and two sets of available drones $K_S$ for the small drones, and $K_L$ for large drones. The mathematical notation used in the formulation is given in Table \ref{table:notation}. 
 \newpage
-\begin{table}[t]  
+\begin{table}[h!]  
 \center
 \renewcommand{\arraystretch}{1.2}
 \caption{Notation}
@@ -113,63 +95,75 @@ For the second-stage, the true weight of each demand location $w_i$ and correspo
 \begin{tabular}{ll}
 \toprule 
 \multicolumn{2}{l}{\textbf{Sets}} \\
-$I$                              & Set of demand locations                                                                    \\
-$J$                              & Set of potential facility locations                                                        \\
-$K$                              & Set of drones                                                                              \\
-$T$                              & Set of types of drones                                                                     \\
+$I$                           & Set of gathering points                                                                    \\
+$D$                           & Set of potential depot locations                                                           \\
+$L$                           & Set of potential depot locations                                                           \\
+$K_{SD}$                      & Set of small drones                                                                        \\
+$K_{LD}$                      & Set of Large drones                                                                        \\
 \multicolumn{2}{l}{\textbf{Parameters}} \\
-$\eta_t$                          & Power transfer efficiency for drones of type $t$                                          \\
-$\theta_{st}$                     & Lift to drag ratio for drones of type $t$                                                 \\
-$B_t$                             & Battery capacity of each drone of type $t \in T$                                          \\
-$b_{ijt}$                         & For a drone of type $t \in T$, battery consumed during one trip between demand $i \in I$ 
-and facility $j \in J$        \\
-$d_{ij}$                          & Travel distance between demand point $i \in I$ and facility $j \in J$                     \\
-$m_{t}$                           & Maximum number of facilities                                                              \\
-$U$                               & Capacity of each facility (same unit as UAV mass tare and battery mass)                   \\
-$w_{i}$                           & Weight of demand $i \in I$ (same unit as UAV mass tare and battery mass)                  \\
-$e_{ik}$                          & 1, if a drone $k$ is eligible to serve demand $i$, and 0, otherwise                       \\
-$c_t$                             & Cost for using drone of type $t\in T$                                                     \\
-\multicolumn{2}{l}{\textbf{First-stage decision variables}}                                                                   \\
-$g_k$                             & 1, if the $k^{th}$ drone is used, and 0, otherwise                                        \\
-$y_j$                             & 1, if the facility is located at $j\in J$, and 0, otherwise                               \\
-\multicolumn{2}{l}{\textbf{Second-stage decision variables}}                                                                  \\
-$z_{jk}$                          & 1, if the $k^{th}$ drone is assigned to facility $j\in J$, and 0, otherwise               \\
-$x_{ijk}$                         & 1, if customer $i$ is served by the $k^{th}$ drone of plant $j\in J$, and 0, otherwise    \\
+$e$                           & Maximal number for open depots                                                             \\
+$p$                           & Maximal number for open launch points                                                      \\
+$Q_T$                         & Capacity of Trucks                                                                         \\
+$Q_{SD}$                      & Capacity of small drones                                                                   \\
+$Q_{LD}$                      & Capacity of large drones                                                                   \\
+$c_{SD}$                      & Cost of using small drones                                                                 \\
+$c_{LD}$                      & Cost of using large drones                                                                 \\
+$v_T$                         & Speed of trucks                                                                            \\
+$v_{max}^{SD}$                & Maximal speed of small drones                                                              \\
+$v_{max}^{LD}$                & Maximal speed of large drones                                                              \\
+$T$                           & Length of time horizon                                                                     \\
+$\tau$                        & Preparation time for small drones                                                          \\
+$\omega_{ld}$                 & Ground distance between depot $d$ and launch point $l$ after the earthquake                \\
+$q_i$                         & Demand at gathering point $i$                                                              \\
+$\pi$                         & Penalty per unit of unmet demand                                                           \\
+\multicolumn{2}{l}{\textbf{First-stage decision variables}}                                                                \\
+$u_d$                         & 1, if a depot is open at location $d \in D$, 0 otherwise                                   \\
+$v_l$                         & 1, if a launch point is open at location $l \in L$,0 otherwise                             \\
+$w_{ld}$                      & 1, if launch point $l$ is assigned to depot $d$, 0 otherwise                               \\
+\multicolumn{2}{l}{\textbf{Second-stage decision variables}}                                                               \\
+$g_k$                         & 1, if a drone $k \in \{K_{SD} \cup K_{LD}\}$ is used, 0 otherwise                          \\
+$x_{ilk}$                     & 1, if a small drone $k \in K_{SD}$ is assigned to serve point $i \in I$ from location $l \in \{L \cup D\}$, 0 otherwise \\
+$y_{idk}$                     & 1, if a large drone $k \in K_{LD}$ is assigned to serve point $i \in I$ from depot $d \in D$, 0 otherwise \\
+$o_i$                         & Unmet demand for gathering point $i \in I$                                                 \\
 \bottomrule
 \end{tabular}
 }
 \label{table:notation}
 \end{table} 
+The first-stage decision variables are $u_d$, $v_l$, and $w_{ld}$, which represent the decision of opening a depot at location $d$, opening a launch point at location $l$, and assigning launch point $l$ to depot $d$, respectively. The second-stage decision variables are $g_k$, $x_{ilk}$, $y_{idk}$, and $o_i$, which represent the decision of using drone $k$, assigning small drone $k$ to serve point $i$ from location $l$, assigning large drone $k$ to serve point $i$ from depot $d$, and the unmet demand for gathering point $i$, respectively. The objective function of the first-stage problem is to minimize the expected cost of the second-stage problem. The first-stage problem is subject to constraints on the number of open depots and launch points, and the assignment of launch points to depots. The second-stage problem is to minimize the expected cost of using drones, the penalty for unmet demand, and the cost of using drones. The second-stage problem is subject to constraints on the assignment of drones to gathering points, the capacity of trucks, the capacity of small drones, the capacity of large drones, the unmet demand, and the assignment of launch points to depots. The complete formulation of the problem is given below.
 
 \subsection{Stochastic Program}
 \noindent
 Our stochastic programming formulation aims to solve the following problem:
 \begin{subequations}
     \begin{align}
-        \min \limits_{x, y, z, g} \quad
-              & \sum_{t \in T} \sum_{k \in K_t} c_t g_{k} + \Embb_{\Pmbb}\left[\Qcal(g,\xi)\right] & & \label{objective:SP}\\ 
-        \subjectto \quad 
-              & \sum_{j\in J} y_j \leq p                                             & & \forall j \in J \label{constraint:Num_Facility} \\ 
-              & g_{k+1} \leq g_{k}                                                   & & \forall k, k+1 \in K_t, t \in T \label{constraint:Symmetry_Elimination} \\
-              & z_{jk} \leq y_j,                                                     & &\forall j\in J, k\in  K_t, t \in T \label{constraint:FacilityOpen} \\
-              & \sum_{j\in J} z_{jk} = g_{k},                                        & & \forall k\in  K_t, t \in T \label{constraint:connect_z_g} \\ 
-              & z_{jk}, g_k, y_j \in \{0,1\}                                         & & \forall j \in J, t \in T, k \in K_t \label{constraint:1stStageBinary}
+        \min \quad & \E_{\P} \left[ Q(u,v,w,\xi) \right] && \label{objective:1stStageObj} \\
+        \subjectto \quad & \sum_{d \in D} u_d \leq e     && \label{constraint:Num_Depot} \\
+                         & \sum_{l \in L} v_l \leq p     && \label{constraint:Num_Launch} \\
+                         & \sum_{d \in D} w_{ld} = v_l,  && \forall l \in L \label{constraint:LaunchPointtoOneDepot} \\
+                         & w_{ld} \in \{0,1\}, && \forall d \in D, l \in L \label{constraint:wBinary} \\
+                         & u_d \in \{0,1\}, && \forall d \in D \label{constraint:uBinary} \\
+                         & v_l \in \{0,1\}, && \forall l \in L \label{constraint:vBinary}
     \end{align}
 \end{subequations}
-The objective function (\ref{objective:SP}) indicates the purpose to minimize the cost of using drones. The constraint (\ref{constraint:Num_Facility}) limits the maximal number of open facility to be $p$. Constraint (\ref{constraint:FacilityOpen}) ensures all the drones will only be assigned to open facilities. Moreover, the following constraint (\ref{constraint:connect_z_g}) makes sure if a drone is decided to use in the first-stage decision, it will be assigned to a certain facility. Otherwise, it won't be in the assigning process. We also want to eliminate the symmetry within drones of same type $t \in T$ by imposing constraint (\ref{constraint:1stStageBinary}). 
-
-Our uncertainties in the second-stage decision are indicated as the parameter $\xi \in \Xi$, where $\xi = \left( w, b \right)$, and the second stage problem is constructed as:
+Our uncertainties in the second-stage decision are indicated as the parameter $\xi \in \Xi$, where $\xi = \left( \omega, q \right)$, and the second stage problem is constructed as:
 \begin{subequations}
     \begin{align}
-        Q[g] :=  \quad \min \limits_{x} \quad &  - \sum_{t \in T} \sum_{k \in K_t} \sum_{i \in I} \sum_{j \in J} w_i x_{ijk} & & \label{objective:2ndStageObj} \\
-                             \subjectto \quad & \sum_{t\in T} \sum_{j\in J} \sum_{k_t\in K_t} x_{ijk} \leq 1,        & & \forall i\in I \label{constraint:ServeOnce} \\
-                                              & x_{ijk} \leq e_{i,k},                                                & & \forall k\in K_t \label{constraint:Eligibility} \\
-                                              & \sum_{i\in I} b_{ijt} x_{ijk} \leq z_{jk} B_{t},                     & & \forall j\in J, k\in K_t, t \in T \label{constraint:BatteryConsumption} \\
-                                              & \sum_{j\in J} \sum_{t\in T} \sum_{k\in K_t} w_i x_{ijk}  \leq U y_j, & & \forall j\in J \label{constraint:FacilityCapacity} \\
-                                              & x_{ijk} \in \{0,1\}                                                  & & \forall i \in I, j\in J, k\in K \label{constraint:2ndStageBinary}
+        Q[u,v,w] :=  \quad \min \quad & \sum_{i \in I} \pi o_i + \sum_{k \in K_{SD}} c_{SD} g_k + \sum_{k \in K_{LD}} c_{LD} g_k & & \label{objective:2ndStageObj} \\
+                     \subjectto \quad & y_{idk} \leq u_d && \forall d \in D, i \in I, k \in \{K_{SD} \cup K_{LD}\} \label{constraint:DepotOpen}\\
+                                      & x_{ilk} \leq v_l && \forall l \in L, i \in I, k \in K_{SD} \label{constraint:LaunchPointOpen} \\
+                                      & \sum_{k \in K_{SD}} \sum_{i \in I} q_i x_{ilk} \leq Q_T v_l && \forall l \in L \label{constraint:TrucksCapacity} \\
+                                      & q_i - \sum_{k \in K_{SD}}\sum_{l \in \{L \cup D\}} Q_{SD} x_{ilk} - \sum_{k \in K_{LD}}\sum_{d \in D} Q_{LD} y_{idk} \leq o_i && \forall i \in I \label{constraint:UnmetDemand} \\
+                                      & \sum_{d \in D} \frac{\omega_{ld}}{v_T} w_{ld} + \sum_{i \in I} \left( \frac{2d_{li}}{v_{li}} + \tau \right) x_{ilk} \leq T && \forall l \in L, k \in K_{SD} \label{constraint:LPTimeLimitSD} \\
+                                      & \sum_{i \in I} \left( \frac{2d_{li}}{v_{li}} + \tau \right) x_{ilk} \leq T && \forall l \in D, k \in K_{SD} \label{constraint:DepotTimeLimitSD} \\
+                                      & \frac{2d_{li}}{v_{li}} y_{idk} \leq T && \forall d \in D, i \in I \label{constraint:DepotTimeLimitLD} \\
+                                      & g_k \in \{0,1\}, && \forall k \in \{K_{SD} \cup K_{LD}\} \label{constraint:gBinary} \\
+                                      & x_{ilk} \in \{0,1\}, && \forall l \in L, i \in I, k \in K_{SD} \label{constraint:xBinary} \\
+                                      & y_{idk} \in \{0,1\}, && \forall d \in D, i \in I, k \in K_{LD} \label{constraint:yBinary} \\
+                                      & o_i \geq 0, && \forall i \in I \label{constraint:UnmetDemandNonNeg}
     \end{align}
 \end{subequations}
-In the second-stage formulation, the objective function (\ref{objective:2ndStageObj}) aims to maximize the weighted demand coverage based on the decisions made in the previous stage. Constraint (\ref{constraint:ServeOnce}) force each demand point $i \in I$, will only be served once. The constraint (\ref{constraint:Eligibility}) ensures only the drones match the size of goods are eligible to serve corresponding demand point. The battery consumption is indicated through the constraint (\ref{constraint:BatteryConsumption}), and by constraint (\ref{constraint:FacilityCapacity}), the total amount of goods can be stored in a specific facility is limited. 
+
 
 \section{Computational Results}\label{sec:results}
 
