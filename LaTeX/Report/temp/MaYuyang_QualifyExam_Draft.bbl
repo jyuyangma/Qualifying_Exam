@@ -1,0 +1,203 @@
+\begin{thebibliography}{24}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Ahmed(2013)}]{ahmed2013SDA}
+\bibinfo{author}{Ahmed, S.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A scenario decomposition algorithm for 0--1
+  stochastic programs}.
+\newblock \bibinfo{journal}{Operations Research Letters} \bibinfo{volume}{41},
+  \bibinfo{pages}{565--569}.
+%Type = Misc
+\bibitem[{Amazon(2022)}]{amazon2022drone}
+\bibinfo{author}{Amazon}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Amazon prime air prepares for drone deliveries}.
+\newblock \URLprefix
+  \url{https://www.aboutamazon.com/news/transportation/amazon-prime-air-prepares-for-drone-deliveries}.
+  \bibinfo{note}{accessed: 2024-05-21}.
+%Type = Book
+\bibitem[{Birge and Louveaux(2011)}]{birge2011introduction}
+\bibinfo{author}{Birge, J.R.}, \bibinfo{author}{Louveaux, F.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Introduction to stochastic programming}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+%Type = Article
+\bibitem[{Chauhan et~al.(2019)Chauhan, Unnikrishnan and
+  Figliozzi}]{chauhan2019maximum}
+\bibinfo{author}{Chauhan, D.}, \bibinfo{author}{Unnikrishnan, A.},
+  \bibinfo{author}{Figliozzi, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Maximum coverage capacitated facility location
+  problem with range constrained drones}.
+\newblock \bibinfo{journal}{Transportation Research Part C: Emerging
+  Technologies} \bibinfo{volume}{99}, \bibinfo{pages}{1--18}.
+%Type = Article
+\bibitem[{Cheng et~al.(2024)Cheng, Adulyasak and Rousseau}]{cheng2024robust}
+\bibinfo{author}{Cheng, C.}, \bibinfo{author}{Adulyasak, Y.},
+  \bibinfo{author}{Rousseau, L.M.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Robust drone delivery with weather information}.
+\newblock \bibinfo{journal}{Manufacturing \& Service Operations Management} .
+%Type = Article
+\bibitem[{Church and Velle(1974)}]{church1974maximal}
+\bibinfo{author}{Church, R.}, \bibinfo{author}{Velle, C.R.},
+  \bibinfo{year}{1974}.
+\newblock \bibinfo{title}{The maximal covering location problem}.
+\newblock \bibinfo{journal}{Papers in regional science} \bibinfo{volume}{32},
+  \bibinfo{pages}{101--118}.
+%Type = Misc
+\bibitem[{Dean and Entsie(2020)}]{Zipline2020}
+\bibinfo{author}{Dean, G.}, \bibinfo{author}{Entsie, B.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Zipline drones deliver coronavirus supplies in
+  africa}.
+\newblock \URLprefix
+  \url{https://www.businessinsider.com/zipline-drone-coronavirus-supplies-africa-rwanda-ghana-2020-5}.
+  \bibinfo{note}{accessed: 2024-06-03}.
+%Type = Misc
+\bibitem[{DHL(2018)}]{dhl2018drone}
+\bibinfo{author}{DHL}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Rapid response from the air: Medicines successfully
+  delivered using a parcel drone in east africa}.
+\newblock \URLprefix
+  \url{https://www.dhl.com/global-en/home/press/press-archive/2018/rapid-response-from-the-air-medicines-successfully-delivered-using-a-parcel-drone-in-east-africa.html}.
+  \bibinfo{note}{accessed: 2024-05-21}.
+%Type = Article
+\bibitem[{Dukkanci et~al.(2023a)Dukkanci, Campbell and
+  Kara}]{dukkanci2023facility}
+\bibinfo{author}{Dukkanci, O.}, \bibinfo{author}{Campbell, J.F.},
+  \bibinfo{author}{Kara, B.Y.}, \bibinfo{year}{2023}a.
+\newblock \bibinfo{title}{Facility location decisions for drone delivery: A
+  literature review}.
+\newblock \bibinfo{journal}{European Journal of Operational Research} .
+%Type = Article
+\bibitem[{Dukkanci et~al.(2021)Dukkanci, Kara and
+  Bekta{\c{s}}}]{dukkanci2021minimizing}
+\bibinfo{author}{Dukkanci, O.}, \bibinfo{author}{Kara, B.Y.},
+  \bibinfo{author}{Bekta{\c{s}}, T.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Minimizing energy and cost in range-limited drone
+  deliveries with speed optimization}.
+\newblock \bibinfo{journal}{Transportation Research Part C: Emerging
+  Technologies} \bibinfo{volume}{125}, \bibinfo{pages}{102985}.
+%Type = Article
+\bibitem[{Dukkanci et~al.(2023b)Dukkanci, Koberstein and
+  Kara}]{dukkanci2023drones}
+\bibinfo{author}{Dukkanci, O.}, \bibinfo{author}{Koberstein, A.},
+  \bibinfo{author}{Kara, B.Y.}, \bibinfo{year}{2023}b.
+\newblock \bibinfo{title}{Drones for relief logistics under uncertainty after
+  an earthquake}.
+\newblock \bibinfo{journal}{European Journal of Operational Research}
+  \bibinfo{volume}{310}, \bibinfo{pages}{117--132}.
+%Type = Article
+\bibitem[{Erbeyo{\u{g}}lu and Bilge(2020)}]{erbeyouglu2020earthquake}
+\bibinfo{author}{Erbeyo{\u{g}}lu, G.}, \bibinfo{author}{Bilge, {\"U}.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A robust disaster preparedness model for effective
+  and fair disaster response}.
+\newblock \bibinfo{journal}{European Journal of Operational Research}
+  \bibinfo{volume}{280}, \bibinfo{pages}{479--494}.
+%Type = Article
+\bibitem[{Farahani et~al.(2012)Farahani, Asgari, Heidari, Hosseininia and
+  Goh}]{farahani2012covering}
+\bibinfo{author}{Farahani, R.Z.}, \bibinfo{author}{Asgari, N.},
+  \bibinfo{author}{Heidari, N.}, \bibinfo{author}{Hosseininia, M.},
+  \bibinfo{author}{Goh, M.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Covering problems in facility location: A review}.
+\newblock \bibinfo{journal}{Computers \& Industrial Engineering}
+  \bibinfo{volume}{62}, \bibinfo{pages}{368--407}.
+%Type = Article
+\bibitem[{Figliozzi(2017)}]{figliozzi2017lifecycle}
+\bibinfo{author}{Figliozzi, M.A.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Lifecycle modeling and assessment of unmanned aerial
+  vehicles (drones) co2e emissions}.
+\newblock \bibinfo{journal}{Transportation Research Part D: Transport and
+  Environment} \bibinfo{volume}{57}, \bibinfo{pages}{251--261}.
+%Type = Article
+\bibitem[{Karaca et~al.(2018)Karaca, Cicek, Tatli, Sahin, Pasli, Beser and
+  Turedi}]{karaca2018potential}
+\bibinfo{author}{Karaca, Y.}, \bibinfo{author}{Cicek, M.},
+  \bibinfo{author}{Tatli, O.}, \bibinfo{author}{Sahin, A.},
+  \bibinfo{author}{Pasli, S.}, \bibinfo{author}{Beser, M.F.},
+  \bibinfo{author}{Turedi, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The potential use of unmanned aircraft systems
+  (drones) in mountain search and rescue operations}.
+\newblock \bibinfo{journal}{The American journal of emergency medicine}
+  \bibinfo{volume}{36}, \bibinfo{pages}{583--588}.
+%Type = Article
+\bibitem[{Kleywegt et~al.(2002)Kleywegt, Shapiro and Homem-de
+  Mello}]{kleywegt2002sample}
+\bibinfo{author}{Kleywegt, A.J.}, \bibinfo{author}{Shapiro, A.},
+  \bibinfo{author}{Homem-de Mello, T.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{The sample average approximation method for
+  stochastic discrete optimization}.
+\newblock \bibinfo{journal}{SIAM Journal on optimization} \bibinfo{volume}{12},
+  \bibinfo{pages}{479--502}.
+%Type = Article
+\bibitem[{van~der Laan and Romeijnders(2023)}]{van2023converging}
+\bibinfo{author}{van~der Laan, N.}, \bibinfo{author}{Romeijnders, W.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{A converging benders' decomposition algorithm for
+  two-stage mixed-integer recourse models}.
+\newblock \bibinfo{journal}{Operations Research} .
+%Type = Article
+\bibitem[{Laporte and Louveaux(1993)}]{laporte1993integer}
+\bibinfo{author}{Laporte, G.}, \bibinfo{author}{Louveaux, F.V.},
+  \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{The integer l-shaped method for stochastic integer
+  programs with complete recourse}.
+\newblock \bibinfo{journal}{Operations research letters} \bibinfo{volume}{13},
+  \bibinfo{pages}{133--142}.
+%Type = Article
+\bibitem[{Murray and Chu(2015)}]{murray2015flying}
+\bibinfo{author}{Murray, C.C.}, \bibinfo{author}{Chu, A.G.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The flying sidekick traveling salesman problem:
+  Optimization of drone-assisted parcel delivery}.
+\newblock \bibinfo{journal}{Transportation Research Part C: Emerging
+  Technologies} \bibinfo{volume}{54}, \bibinfo{pages}{86--109}.
+%Type = Article
+\bibitem[{Murray and Raj(2020)}]{murray2020multiple}
+\bibinfo{author}{Murray, C.C.}, \bibinfo{author}{Raj, R.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{The multiple flying sidekicks traveling salesman
+  problem: Parcel delivery with multiple drones}.
+\newblock \bibinfo{journal}{Transportation Research Part C: Emerging
+  Technologies} \bibinfo{volume}{110}, \bibinfo{pages}{368--398}.
+%Type = Article
+\bibitem[{Owen and Daskin(1998)}]{owen1998strategic}
+\bibinfo{author}{Owen, S.H.}, \bibinfo{author}{Daskin, M.S.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Strategic facility location: A review}.
+\newblock \bibinfo{journal}{European journal of operational research}
+  \bibinfo{volume}{111}, \bibinfo{pages}{423--447}.
+%Type = Article
+\bibitem[{{\"O}zmen(2002)}]{ozmen2002istanbul}
+\bibinfo{author}{{\"O}zmen, B.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{{\.I}stanbul ili {\.i}{\c{c}}in deprem senaryosu}.
+\newblock \bibinfo{journal}{T{\"u}rkiye M{\"u}hendislik Haberleri}
+  \bibinfo{volume}{1}.
+%Type = Misc
+\bibitem[{{UPS}(2017)}]{ups2017drone}
+\bibinfo{author}{{UPS}}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{{UPS Tests Residential Delivery Via Drone Launched
+  From Atop Package Car}}.
+\newblock \URLprefix
+  \url{https://www.globenewswire.com/news-release/2017/02/21/925955/0/en/UPS-Tests-Residential-Delivery-Via-Drone-Launched-From-Atop-Package-Car.html}.
+  \bibinfo{note}{accessed: 2024-05-21}.
+%Type = Article
+\bibitem[{Zhu et~al.(2022)Zhu, Boyles and Unnikrishnan}]{zhu2022two}
+\bibinfo{author}{Zhu, T.}, \bibinfo{author}{Boyles, S.D.},
+  \bibinfo{author}{Unnikrishnan, A.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Two-stage robust facility location problem with
+  drones}.
+\newblock \bibinfo{journal}{Transportation Research Part C: Emerging
+  Technologies} \bibinfo{volume}{137}, \bibinfo{pages}{103563}.
+
+\end{thebibliography}

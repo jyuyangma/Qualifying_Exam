@@ -1,0 +1,119 @@
+
+\documentclass{lxaiproposal}
+  
+  
+%   \usepackage[english,french]{babel}   % "babel.sty" + "french.sty"
+\usepackage[english]{babel}   % "babel.sty" + "french.sty"
+   
+% \usepackage[english,francais]{babel} % "babel.sty"
+% \usepackage{french}                  % "french.sty"
+\usepackage{times}			% ajout times le 30 mai 2003
+ 
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pifont}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{jm}
+
+
+\usepackage{array}
+\usepackage{color}
+\usepackage{colortbl}
+
+\usepackage{pifont}
+\usepackage{amssymb}
+\usepackage{latexsym}
+
+\usepackage{booktabs}
+
+%% --------------------------------------------------------------
+%% FONTS CODING ?
+% \usepackage[OT1]{fontenc} % Old fonts
+% \usepackage[T1]{fontenc}  % New fonts (preferred)
+%% ==============================================================
+
+\title{Qualify Exam Proposal}
+
+\author{\coord{Yuyang}{Ma}{}}
+
+\address{\affil{}{Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, PA, United States}}
+
+%% If all authors have the same address %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                             %
+%   \auteur{\coord{Michel}{Dupont}{},                                         %
+%           \coord{Marcel}{Dupond}{},                                         %
+%           \coord{Michelle}{Durand}{},                                       %
+%           \coord{Marcelle}{Durand}{}}                                       %
+%                                                                             %
+%   \adress{\affil{}{Laboratoire Traitement des Signaux et des Images \\      %
+%     1 rue de la Science, BP 00000, 99999 Nouvelleville Cedex 00, France}}   %
+%                                                                             %
+%                                                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\email{yuyang.ma@lehigh.edu}
+
+\englishabstract{}
+
+\begin{document}
+\maketitle
+\section{Introduction} \label{section:intro}
+\vspace*{-3mm}
+
+As drone technology has rapidly developed, their application in various fields has been extensively studied. In the commercial delivery sector, leading organizations like UPS \cite{ups2017drone} and Amazon \cite{amazon2022drone} have utilized drones to deliver packages. Additionally, drones have demonstrated their potential in humanitarian and healthcare operations. For example, in collaboration with other organizations, DHL successfully tested the delivery of medicines using a drone to an island in Lake Victoria. Due to poor infrastructure and difficult terrain, medical supplies for the approximately 400,000 residents of Ukerewe Island in Lake Victoria were severely limited. However, thanks to the advantages of drones, such as ignoring road conditions and rapid flying speed, the delivery time was successfully reduced from six hours to 40 minutes. Emergency deliveries in such areas are no longer an impossible mission \cite{dhl2018drone}. Drones are also particularly suitable for mountain search and rescue operations \cite{karaca2018potential}. Zipline, a famous delivery company, has been using drones to deliver medical supplies, including COVID-19 vaccines, to remote areas in Rwanda and Ghana. This innovative approach started in Ghana in early 2021, making it the first country to launch a nationwide program to deliver coronavirus vaccines using drones. The drones have also been used to transport personal protective equipment (PPE) and COVID-19 test samples from rural areas to labs in urban centers \cite{Zipline2020}.
+
+Motivated by the applications mentioned before, in this study, we extend the post-disaster humanitarian application proposed by Dukkanci et al. \cite{dukkanci2023drones}. In their study, they proposed a drone-based system to deliver medical supplies to earthquake-affected areas. After the earthquake, owing to the debris and potential collapse of roads, traditional transportation methods like trucks are not ideal for delivering. The proposed system using a fleet of drones as the primary method to deliver the required emergency goods. Besides, all the delivery must be finished within a certain time frame. The objective is to minimize the total unmet demand. The authors formulated the problem as a mixed-integer linear programming (MILP) model and proposed a scenario decomposition algorithm (SDA) to solve the problem. In this study, we propose several extensions to the existing model, firstly, we consider uncertain weather conditions, which may affect the delivery time of drones. Secondly, we incorporate more constraints for large drones. Thirdly, we reformulate the model using sample average approximation (SAA), and state why Benders decomposition is not suitable for this formulation. Finally, we analyze the value of stochastic modeling and the expected value of perfect information.
+
+The rest of the paper is organized as follows. Section \ref{section:lit_review} provides a literature review of the drone delivery system. Section \ref{section:extensions} presents the proposed extensions to the existing model. The result of a numerical experiment is presented in Section \ref{section:results}, and the paper is concluded in Section \ref{section:conclusion}.
+
+\section{Literature Review} \label{section:lit_review}
+\vspace*{-3mm}
+
+
+
+\section{Proposed Extensions} \label{section:extensions}
+\vspace*{-3mm}
+
+
+\section{Numerical Results} \label{section:results}
+
+\section{Conclusion} \label{section:conclusion}
+\vspace*{-3mm}
+
+
+
+
+
+% Please add the following required packages to your document preamble:
+% \begin{table}[h!]
+% \centering
+% \caption{A typical table.}
+% \label{tab:my-table}
+% \begin{tabular}{@{}ccccc@{}}
+% \toprule
+% \textbf{Items/Cols} & \textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} & \textbf{Col 4} \\ \midrule
+% \textbf{Item 1}     & Value          & Value          & Value          & Value          \\
+% \textbf{Item 2}     & Value          & Value          & Value          & Value          \\
+% \textbf{Item 3}     & Value          & Value          & Value          & Value          \\ \bottomrule
+% \end{tabular}
+% \end{table}
+
+ %\begin{figure} [h!]
+ %    \centering
+ %    \includegraphics[width=1\linewidth]{images/fig1.png}
+ %  \caption{A typical figure.}
+ %    \label{fig:my-fig}
+ %    \end{figure}
+
+\bibliographystyle{ieee_fullname}
+\bibliography{references}
+
+%\begin{thebibliography}{99}
+%\end{thebibliography}
+
+\end{document}

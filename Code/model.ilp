@@ -1,0 +1,11 @@
+\ Model SAA_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ SD_time_constraint_LP: 2.683821075346148 small_drone_assignment[32,6,0]
+   + 3.62141487122605 small_drone_assignment[39,6,0] <= -0.746963455907689
+Bounds
+Binaries
+ small_drone_assignment[32,6,0] small_drone_assignment[39,6,0]
+End

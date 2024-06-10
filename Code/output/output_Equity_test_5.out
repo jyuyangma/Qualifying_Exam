@@ -1,0 +1,75 @@
+Test 5 : num_GP = 30 , max_LP = 20 , max_DP = 5 , num_SmallDrone = 30 , num_LargeDrone = 5 , Time Frame = 2.5 hrs
+Equity Constraint : 1164.3974098911442
+Equity Constraint Time : 68.30704474449158
+Equity Objective : 3154.9210744895663
+Equity Objective Time : 3046.163594007492
+Equity Combined : 1679.2334047707577
+Equity Combined Time : 3045.9276571273804
+SAA : 1135.9080424956455
+SAA time : 58.758421421051025
+--------------------------------------------------
+--------------------------------------------------
+After solving the 3 formulations, we have the unmet demand for each scenarios
+The average unmet demand, and difference of demands of each scenario are shown as follows
+Scenario 1 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.2363601416517347, Maximal Difference : 6.2967210881661195
+Equity Combined : 3.331324699668983, Maximal Difference : 10.296721088166125
+SAA : 3.2363601416521477, Maximal Difference : 16.959429552861316
+Scenario 2 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 12.959429552861316
+Equity Objective : 3.290264951839481, Maximal Difference : 6.29672108815123
+Equity Combined : 3.3313246373977834, Maximal Difference : 10.296720526410523
+SAA : 3.236360141652144, Maximal Difference : 13.46324487385824
+Scenario 3 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.2529698707769583, Maximal Difference : 6.179897306427932
+Equity Combined : 3.331324689736634, Maximal Difference : 10.29672108816612
+SAA : 3.2363601416521672, Maximal Difference : 13.46324487385824
+Scenario 4 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.2585882856406685, Maximal Difference : 6.179897316675701
+Equity Combined : 3.3313245412007144, Maximal Difference : 10.296716334105955
+SAA : 3.2363601416521672, Maximal Difference : 16.959429552861316
+Scenario 5 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.2363601415976566, Maximal Difference : 6.179897306427932
+Equity Combined : 3.3313246996387815, Maximal Difference : 10.296721088165743
+SAA : 3.2363601416521495, Maximal Difference : 16.959429552861316
+Scenario 6 : 
+Equity Constraint : 3.3313246992825256, Maximal Difference : 14.959429552861316
+Equity Objective : 3.280403318056679, Maximal Difference : 6.8343482886583455
+Equity Combined : 3.331324699655341, Maximal Difference : 10.296721088166128
+SAA : 3.2363601416521295, Maximal Difference : 16.959429552861316
+Scenario 7 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.321894029524259, Maximal Difference : 6.179897306427932
+Equity Combined : 3.3313246823321796, Maximal Difference : 10.296720568295354
+SAA : 3.2363601416521215, Maximal Difference : 16.959429552861316
+Scenario 8 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 12.959429552861316
+Equity Objective : 3.236360123812444, Maximal Difference : 6.179896772094899
+Equity Combined : 3.3313246571025226, Maximal Difference : 10.296720450913185
+SAA : 3.2363601416521517, Maximal Difference : 10.179897306427932
+Scenario 9 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 11.46324487385824
+Equity Objective : 3.2363601415756262, Maximal Difference : 6.179897306427806
+Equity Combined : 3.3313246987328795, Maximal Difference : 10.296716672984147
+SAA : 3.2363601416521672, Maximal Difference : 16.959429552861316
+Scenario 10 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 12.959429552861316
+Equity Objective : 3.536899470295694, Maximal Difference : 6.9594295528530665
+Equity Combined : 3.3313246996657804, Maximal Difference : 10.296721088166084
+SAA : 3.2363601416521672, Maximal Difference : 16.959429552861316
+Scenario 11 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.2363601416496772, Maximal Difference : 6.2967210881499796
+Equity Combined : 3.331324699669387, Maximal Difference : 10.296721088166128
+SAA : 3.2363601416521672, Maximal Difference : 16.959429552861316
+Scenario 12 : 
+Equity Constraint : 3.331324699669387, Maximal Difference : 14.959429552861316
+Equity Objective : 3.236360141268115, Maximal Difference : 6.1798973064278915
+Equity Combined : 3.331324676963382, Maximal Difference : 10.296720406986006
+SAA : 3.236360141652146, Maximal Difference : 12.296721088166128
+--------------------------------------------------
+--------------------------------------------------

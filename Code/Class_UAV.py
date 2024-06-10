@@ -51,13 +51,13 @@ class Drone:
 
 class SmallDrone(Drone):
     def __init__(self, model):
-        super().__init__(model, delta=0.012, m_uav=20 , m_batt=0.89, U_tip=120,
+        super().__init__(model, delta=0.012, m_uav=2.04 , m_batt=0.89, U_tip=120,
                          s=0.05, A=0.503, omega=300, r=0.4, k=0.1, v_0=4.03, d_r=0.6, B_mass=540000,
                          theta=0.8, max_payload=2.0)
 
 class LargeDrone(Drone):
     def __init__(self, model):
-        super().__init__(model, delta=0.012, m_uav=50 , m_batt=5.0, U_tip=150,
+        super().__init__(model, delta=0.012, m_uav=10 , m_batt=5.0, U_tip=150,
                          s=0.08, A=1.0, omega=250, r=1.0, k=0.15, v_0=6.0, d_r=0.8, B_mass=540000,
                          theta=0.8, max_payload=200)
         

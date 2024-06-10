@@ -1,0 +1,108 @@
+Test 3 : max_LP = 4 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3159.2810703003024
+SAA time : 8.550440549850464
+SDA : 3159.281070300303
+SDA time : 116.57441306114197
+----------------------------------------
+Test 3 : max_LP = 4 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 3046.2267454123207
+SAA time : 13.119168043136597
+SDA : 3046.2267454123917
+SDA time : 174.32827019691467
+----------------------------------------
+Test 3 : max_LP = 4 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 3046.2267454122534
+SAA time : 17.3706693649292
+SDA : 3046.2267454123926
+SDA time : 233.15957474708557
+----------------------------------------
+Test 3 : max_LP = 4 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3156.060757616987
+SAA time : 8.440512657165527
+SDA : 3156.060757616987
+SDA time : 115.85332012176514
+----------------------------------------
+Test 3 : max_LP = 4 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 2964.3741410216003
+SAA time : 12.757253170013428
+SDA : 2964.3741410216708
+SDA time : 173.90835905075073
+----------------------------------------
+Test 3 : max_LP = 4 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 2898.281694494562
+SAA time : 17.11838674545288
+SDA : 2898.0759313348126
+SDA time : 232.3003363609314
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3159.2810703003024
+SAA time : 8.559427261352539
+SDA : 3159.281070300303
+SDA time : 116.61176085472107
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 3046.2267454123207
+SAA time : 13.023080348968506
+SDA : 3046.2267454123917
+SDA time : 174.19731545448303
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 3046.2267454122534
+SAA time : 17.41455888748169
+SDA : 3046.2267454123926
+SDA time : 233.21174788475037
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3156.060757616987
+SAA time : 8.528882503509521
+SDA : 3156.060757616987
+SDA time : 115.88180828094482
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 2964.3741410216003
+SAA time : 12.899070024490356
+SDA : 2964.3741410216708
+SDA time : 173.84635472297668
+----------------------------------------
+Test 3 : max_LP = 5 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 2898.281694494562
+SAA time : 17.145586013793945
+SDA : 2898.0759313348126
+SDA time : 232.5989465713501
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3159.2810703003024
+SAA time : 8.524240493774414
+SDA : 3159.281070300303
+SDA time : 116.15620136260986
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 3046.2267454123207
+SAA time : 12.874466896057129
+SDA : 3046.2267454123917
+SDA time : 174.21942710876465
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 3046.2267454122534
+SAA time : 17.46077561378479
+SDA : 3046.2267454123926
+SDA time : 233.17570638656616
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1
+SAA : 3156.060757616987
+SAA time : 8.483731985092163
+SDA : 3156.060757616987
+SDA time : 115.88109374046326
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2
+SAA : 2964.3741410216003
+SAA time : 12.939307451248169
+SDA : 2964.3741410216708
+SDA time : 173.21347427368164
+----------------------------------------
+Test 3 : max_LP = 6 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3
+SAA : 2898.281694494562
+SAA time : 17.256643772125244
+SDA : 2898.0759313348126
+SDA time : 232.32419848442078
+----------------------------------------

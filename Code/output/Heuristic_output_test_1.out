@@ -1,0 +1,90 @@
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4201.046725060062
+Heuristic time : 8.4757559299469
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 4116.046725060062
+Heuristic time : 12.769299507141113
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 4031.0467250600577
+Heuristic time : 16.993852138519287
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4073.2582355791214
+Heuristic time : 8.375079154968262
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 3967.854559684542
+Heuristic time : 12.65490198135376
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 4 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 4022.3944549819767
+Heuristic time : 16.854252338409424
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4201.046725060062
+Heuristic time : 8.544108152389526
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 4164.748644715621
+Heuristic time : 12.90251612663269
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 4031.046725060059
+Heuristic time : 16.95628309249878
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4208.282297991549
+Heuristic time : 8.562628746032715
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 3912.023887187246
+Heuristic time : 13.042433023452759
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 5 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 4072.7176153638343
+Heuristic time : 17.412741899490356
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 1 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4201.046725060064
+Heuristic time : 8.47144365310669
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 1 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 4116.046725060063
+Heuristic time : 12.689038515090942
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 1 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 4031.046725060059
+Heuristic time : 16.970703840255737
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 2 , num_SmallDrone = 10 , num_LargeDrone = 1 , Time Frame = 2.5 hrs
+Heuristic : 4051.0851678479617
+Heuristic time : 8.469071626663208
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 2 , num_SmallDrone = 15 , num_LargeDrone = 2 , Time Frame = 2.5 hrs
+Heuristic : 3911.9106285813873
+Heuristic time : 12.705308675765991
+--------------------------------------------------
+--------------------------------------------------
+Test 1 : num_GP = 40 , max_LP = 6 , max_DP = 2 , num_SmallDrone = 20 , num_LargeDrone = 3 , Time Frame = 2.5 hrs
+Heuristic : 3837.3447461120136
+Heuristic time : 17.245545387268066
+--------------------------------------------------
+--------------------------------------------------

@@ -1,0 +1,33 @@
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+Scenario 1 : 
+EXPI : 3336.4231011807938, unmet demand : 7.9660577529519845
+Scenario 2 : 
+EXPI : 3336.423101180822, unmet demand : 7.966057752952054
+Scenario 3 : 
+EXPI : 3336.4231011808074, unmet demand : 7.9660577529520165
+Scenario 4 : 
+EXPI : 3445.2016872585555, unmet demand : 8.27550421814639
+Scenario 5 : 
+EXPI : 3445.2016872585555, unmet demand : 8.27550421814639
+Scenario 6 : 
+EXPI : 3336.4231011808365, unmet demand : 7.966057752952091
+Scenario 7 : 
+EXPI : 3553.748674003934, unmet demand : 8.606871685009835
+Scenario 8 : 
+EXPI : 3336.4231011808365, unmet demand : 7.966057752952091
+Scenario 9 : 
+EXPI : 3336.4231011808365, unmet demand : 7.966057752952091
+Scenario 10 : 
+EXPI : 3336.4231011808365, unmet demand : 7.966057752952091
+Scenario 11 : 
+EXPI : 3445.2016872585555, unmet demand : 8.27550421814639
+Scenario 12 : 
+EXPI : 3564.487344431472, unmet demand : 8.64121836107868
+--------------------------------------------------
+--------------------------------------------------
+On average, the objective function value and the unmet demand are shown as follows:
+EVPI: 3400.733565706403, unmet demand : 8.153083914266011

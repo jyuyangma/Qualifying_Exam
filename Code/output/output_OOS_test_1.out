@@ -1,0 +1,50 @@
+Test 1 : max_LP = 10 , max_DP = 4 , num_SmallDrone = 30 , num_LargeDrone = 5
+SAA : 3400.846824312132
+SAA time : 26.936302661895752
+SAA_original : 3018.5430519358515
+SAA_original : 32.08553910255432
+--------------------------------------------------
+--------------------------------------------------
+After solving the original formulation, and the formulation incident with uncertain weather condition, we have the value of first-stage decision variables
+We fix the value of first-stage decision variables, and solve the subproblem of different scenarios
+Scenario 1 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.0467250600286, unmet demand : 9.427616812650072
+Scenario 2 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.0467250600286, unmet demand : 9.427616812650072
+Scenario 3 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.046725060033, unmet demand : 9.427616812650083
+Scenario 4 : 
+SAA : 3445.2016872585555, unmet demand : 8.27550421814639
+SAA_original : 3927.2651369044506, unmet demand : 9.615662842261127
+Scenario 5 : 
+SAA : 3445.2016872585555, unmet demand : 8.27550421814639
+SAA_original : 3927.2651369044506, unmet demand : 9.615662842261127
+Scenario 6 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.0467250600286, unmet demand : 9.427616812650072
+Scenario 7 : 
+SAA : 3553.748674003934, unmet demand : 8.606871685009835
+SAA_original : 4079.8457750247135, unmet demand : 10.064614437561783
+Scenario 8 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.0467250600286, unmet demand : 9.427616812650072
+Scenario 9 : 
+SAA : 3336.423101180836, unmet demand : 7.966057752952091
+SAA_original : 3861.0467250600286, unmet demand : 9.427616812650072
+Scenario 10 : 
+SAA : 3337.7822044511395, unmet demand : 7.96945551112785
+SAA_original : 3861.0467250600504, unmet demand : 9.427616812650125
+Scenario 11 : 
+SAA : 3445.2016872585555, unmet demand : 8.27550421814639
+SAA_original : 3927.2651369044506, unmet demand : 9.615662842261127
+Scenario 12 : 
+SAA : 3564.4873444314717, unmet demand : 8.64121836107868
+SAA_original : 4079.8457750247135, unmet demand : 10.064614437561783
+--------------------------------------------------
+--------------------------------------------------
+On average, the objective function value and the unmet demand are shown as follows:
+SAA : 3400.8468243122684, unmet demand : 8.153367060780672
+SAA_original : 3914.067836348584, unmet demand : 9.58079459087146
