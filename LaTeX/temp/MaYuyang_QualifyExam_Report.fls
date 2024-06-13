@@ -1,0 +1,76 @@
+PWD d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX
+INPUT C:\Users\Yuyang\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\MaYuyang_QualifyExam_Report.tex
+OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\temp\MaYuyang_QualifyExam_Report.log
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\elsarticle\elsarticle.cls
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\elsarticle\elsarticle.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\natbib\natbib.sty
+OUTPUT d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\temp\MaYuyang_QualifyExam_Report.spl
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\bm.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\bm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\bbm\bbm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\bbm\bbm.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\sansmath\sansmath.sty
+INPUT C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex\latex\sansmath\sansmath.sty

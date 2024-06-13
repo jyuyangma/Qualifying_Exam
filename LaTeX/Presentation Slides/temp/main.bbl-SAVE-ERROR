@@ -1,0 +1,416 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{chauhan2019maximum}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=789ac54ab91e896df5157c990a54cfa4}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Darshan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbc3952dcbaccc7cca1c7b7228654885}{%
+           family={Unnikrishnan},
+           familyi={U\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6e4d7bbc5473cad81d23a9b9b3ad6c0}{%
+           family={Figliozzi},
+           familyi={F\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{31f4a839e9ab3428ce8427464b6db98a}
+      \strng{fullhash}{31f4a839e9ab3428ce8427464b6db98a}
+      \strng{bibnamehash}{31f4a839e9ab3428ce8427464b6db98a}
+      \strng{authorbibnamehash}{31f4a839e9ab3428ce8427464b6db98a}
+      \strng{authornamehash}{31f4a839e9ab3428ce8427464b6db98a}
+      \strng{authorfullhash}{31f4a839e9ab3428ce8427464b6db98a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Maximum coverage capacitated facility location problem with range constrained drones}
+      \field{volume}{99}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{cheng2024robust}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f875bc62eb97bb09ee9800206364dab6}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1509ad3b872dc0f7813de8c3a0786c2}{%
+           family={Adulyasak},
+           familyi={A\bibinitperiod},
+           given={Yossiri},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b4dd178cc064dc29154ca332906d802}{%
+           family={Rousseau},
+           familyi={R\bibinitperiod},
+           given={Louis-Martin},
+           giveni={L\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{2502f643d92ef31b4a47bcc99f226793}
+      \strng{fullhash}{2502f643d92ef31b4a47bcc99f226793}
+      \strng{bibnamehash}{2502f643d92ef31b4a47bcc99f226793}
+      \strng{authorbibnamehash}{2502f643d92ef31b4a47bcc99f226793}
+      \strng{authornamehash}{2502f643d92ef31b4a47bcc99f226793}
+      \strng{authorfullhash}{2502f643d92ef31b4a47bcc99f226793}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Manufacturing \& Service Operations Management}
+      \field{title}{Robust drone delivery with weather information}
+      \field{year}{2024}
+    \endentry
+    \entry{Zipline2020}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9a2789df88db30f5165d4b4d474bca4b}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={Grace},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e815afc0a16d288285e58a32148a044b}{%
+           family={Entsie},
+           familyi={E\bibinitperiod},
+           given={Berlinda},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1ebf009a30b5574e82fbae02d741357}
+      \strng{fullhash}{d1ebf009a30b5574e82fbae02d741357}
+      \strng{bibnamehash}{d1ebf009a30b5574e82fbae02d741357}
+      \strng{authorbibnamehash}{d1ebf009a30b5574e82fbae02d741357}
+      \strng{authornamehash}{d1ebf009a30b5574e82fbae02d741357}
+      \strng{authorfullhash}{d1ebf009a30b5574e82fbae02d741357}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Business Insider Africa}
+      \field{note}{Accessed: 2024-06-03}
+      \field{title}{Zipline Drones Deliver Coronavirus Supplies in Africa}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.businessinsider.com/zipline-drone-coronavirus-supplies-africa-rwanda-ghana-2020-5
+      \endverb
+      \verb{url}
+      \verb https://www.businessinsider.com/zipline-drone-coronavirus-supplies-africa-rwanda-ghana-2020-5
+      \endverb
+    \endentry
+    \entry{dhl2018drone}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53c6f3cca240d98b5e648d93115a2426}{%
+           family={DHL},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{53c6f3cca240d98b5e648d93115a2426}
+      \strng{fullhash}{53c6f3cca240d98b5e648d93115a2426}
+      \strng{bibnamehash}{53c6f3cca240d98b5e648d93115a2426}
+      \strng{authorbibnamehash}{53c6f3cca240d98b5e648d93115a2426}
+      \strng{authornamehash}{53c6f3cca240d98b5e648d93115a2426}
+      \strng{authorfullhash}{53c6f3cca240d98b5e648d93115a2426}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-21}
+      \field{title}{Rapid Response from the Air: Medicines Successfully Delivered Using a Parcel Drone in East Africa}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.dhl.com/global-en/home/press/press-archive/2018/rapid-response-from-the-air-medicines-successfully-delivered-using-a-parcel-drone-in-east-africa.html
+      \endverb
+      \verb{url}
+      \verb https://www.dhl.com/global-en/home/press/press-archive/2018/rapid-response-from-the-air-medicines-successfully-delivered-using-a-parcel-drone-in-east-africa.html
+      \endverb
+    \endentry
+    \entry{dukkanci2021energyandcost}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df1958bc17374306ddaad756f3dd31dd}{%
+           family={Dukkanci},
+           familyi={D\bibinitperiod},
+           given={Okan},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e5bce841503a719097bfce73d6a0832}{%
+           family={Kara},
+           familyi={K\bibinitperiod},
+           given={Bahar\bibnamedelima Y},
+           giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88a79f117d256c7b1a865efdfd82a995}{%
+           family={Bektaş},
+           familyi={B\bibinitperiod},
+           given={Tolga},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a090019ec7bb325509424c130b5711a3}
+      \strng{fullhash}{a090019ec7bb325509424c130b5711a3}
+      \strng{bibnamehash}{a090019ec7bb325509424c130b5711a3}
+      \strng{authorbibnamehash}{a090019ec7bb325509424c130b5711a3}
+      \strng{authornamehash}{a090019ec7bb325509424c130b5711a3}
+      \strng{authorfullhash}{a090019ec7bb325509424c130b5711a3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Minimizing energy and cost in range-limited drone deliveries with speed optimization}
+      \field{volume}{125}
+      \field{year}{2021}
+      \field{pages}{102985}
+      \range{pages}{1}
+    \endentry
+    \entry{dukkanci2023drones}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=df1958bc17374306ddaad756f3dd31dd}{%
+           family={Dukkanci},
+           familyi={D\bibinitperiod},
+           given={Okan},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e04692ee6aab28fe49643a5a1be52713}{%
+           family={Koberstein},
+           familyi={K\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e5bce841503a719097bfce73d6a0832}{%
+           family={Kara},
+           familyi={K\bibinitperiod},
+           given={Bahar\bibnamedelima Y},
+           giveni={B\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e804c62ed3379e9502198375228c7965}
+      \strng{fullhash}{e804c62ed3379e9502198375228c7965}
+      \strng{bibnamehash}{e804c62ed3379e9502198375228c7965}
+      \strng{authorbibnamehash}{e804c62ed3379e9502198375228c7965}
+      \strng{authornamehash}{e804c62ed3379e9502198375228c7965}
+      \strng{authorfullhash}{e804c62ed3379e9502198375228c7965}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{1}
+      \field{title}{Drones for relief logistics under uncertainty after an earthquake}
+      \field{volume}{310}
+      \field{year}{2023}
+      \field{pages}{117\bibrangedash 132}
+      \range{pages}{16}
+    \endentry
+    \entry{erbeyouglu2020earthquake}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=98f6d27080c6f4d84a49b852a4cad7e9}{%
+           family={Erbeyoğlu},
+           familyi={E\bibinitperiod},
+           given={Gökalp},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40536a55cf4e7b35b1bc0d5bcccac580}{%
+           family={Bilge},
+           familyi={B\bibinitperiod},
+           given={Ümit},
+           giveni={Ü\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{915276b7b06fe9b040b787c03fd83bc6}
+      \strng{fullhash}{915276b7b06fe9b040b787c03fd83bc6}
+      \strng{bibnamehash}{915276b7b06fe9b040b787c03fd83bc6}
+      \strng{authorbibnamehash}{915276b7b06fe9b040b787c03fd83bc6}
+      \strng{authornamehash}{915276b7b06fe9b040b787c03fd83bc6}
+      \strng{authorfullhash}{915276b7b06fe9b040b787c03fd83bc6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{2}
+      \field{title}{A robust disaster preparedness model for effective and fair disaster response}
+      \field{volume}{280}
+      \field{year}{2020}
+      \field{pages}{479\bibrangedash 494}
+      \range{pages}{16}
+    \endentry
+    \entry{murray2015flying}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af6d26350c3de304db90af5f7595fb49}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Chase\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1ee067472cdf7047b38d574019e3184}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Amanda\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \strng{fullhash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \strng{bibnamehash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \strng{authorbibnamehash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \strng{authornamehash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \strng{authorfullhash}{4f8d7590a46c2942e9e3d1e82aafa141}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{The flying sidekick traveling salesman problem: Optimization of drone-assisted parcel delivery}
+      \field{volume}{54}
+      \field{year}{2015}
+      \field{pages}{86\bibrangedash 109}
+      \range{pages}{24}
+    \endentry
+    \entry{murray2020multiple}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af6d26350c3de304db90af5f7595fb49}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Chase\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9207aa2b5ca78fd562593e59f85cd1a7}{%
+           family={Raj},
+           familyi={R\bibinitperiod},
+           given={Ritwik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{128b2128d83f2c2aed3c437163215c3d}
+      \strng{fullhash}{128b2128d83f2c2aed3c437163215c3d}
+      \strng{bibnamehash}{128b2128d83f2c2aed3c437163215c3d}
+      \strng{authorbibnamehash}{128b2128d83f2c2aed3c437163215c3d}
+      \strng{authornamehash}{128b2128d83f2c2aed3c437163215c3d}
+      \strng{authorfullhash}{128b2128d83f2c2aed3c437163215c3d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{The multiple flying sidekicks traveling salesman problem: Parcel delivery with multiple drones}
+      \field{volume}{110}
+      \field{year}{2020}
+      \field{pages}{368\bibrangedash 398}
+      \range{pages}{31}
+    \endentry
+    \entry{zhu2022two}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4fa0c22b1f07cdd3e678ec7861df8f02}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Tengkuo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4e95751ef0fb47d74a4fcbfd6debf3f}{%
+           family={Boyles},
+           familyi={B\bibinitperiod},
+           given={Stephen\bibnamedelima D},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbc3952dcbaccc7cca1c7b7228654885}{%
+           family={Unnikrishnan},
+           familyi={U\bibinitperiod},
+           given={Avinash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \strng{fullhash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \strng{bibnamehash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \strng{authorbibnamehash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \strng{authornamehash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \strng{authorfullhash}{dfbc104d35ea1a8d8ccce551133c0b39}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{Two-stage robust facility location problem with drones}
+      \field{volume}{137}
+      \field{year}{2022}
+      \field{pages}{103563}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

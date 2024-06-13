@@ -376,12 +376,12 @@ To assess the impact of the earthquake on each facility location, we need to cal
     \end{align}
 \end{subequations}
 
-After the earthquake, the distance between the epicenter and each facility location can be computed. With the known magnitude and hypocentral depth of the earthquake, the intensities of the earthquake can be calculated by formulas (\ref{eq:MSK_1}) - (\ref{eq:MSK_4}). In \cite{erbeyouglu2020earthquake}, they did not indicate the best formula among \eqref{eq:MSK_1} - \eqref{eq:MSK_4} for estimating the damage intensity. The average of the intensity values from the four formulas is used as the final intensity value for a certain facility. According to the MSK value, we can estimate how severe the damage is at each facility location using figure \ref*{fig:MSK_scale}.
+After the earthquake, the distance between the epicenter and each facility location can be computed. With the known magnitude and hypocentral depth of the earthquake, the intensities of the earthquake can be calculated by formulas (\ref{eq:MSK_1}) - (\ref{eq:MSK_4}). In \cite{erbeyouglu2020earthquake}, they did not indicate the best formula among \eqref{eq:MSK_1} - \eqref{eq:MSK_4} for estimating the damage intensity. The average of the intensity values from the four formulas is used as the final intensity value for a certain facility. According to the MSK value, we can estimate how severe the damage is at each facility location using figure \ref{fig:MSK_scale}.
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{eq_tab.png}
-    \label{fig:MSK_scale}
     \caption{Damage percentages based on 1999 Izmit Earthquake (\cite{ozmen2002istanbul})}
+    \label{fig:MSK_scale}
 \end{figure}
 
 For determining the road distance, we calculate the damage percentages of the depot and launch points and consider their average. We subsequently increase the road distance by the average. In experiments, for each one of the 12 scenarios, we use the same value for the magnitude and depth of the earthquake in \cite{dukkanci2023drones}:
@@ -656,7 +656,7 @@ We can observe that, compared to the formulation above, the master problem only 
     \end{align*}
 \end{multicols}
 \vspace{-3em}
-where $u$ is the dual variable. We use $z_s(x)$ to refer to the objective value primal problem with a given $x$. Since dual problem is derived from the Lagrangian relaxation, it  provides a lower bound of the primal problem. Assuming under scenario $s$, we have the optimal solution $u^*$, that $(h_i - T_i x)^T u^* \leq \min ~z_s(x)$. 
+where $u$ is the dual variable. We use $z_s(x)$ to refer to the objective value primal problem with a given $x$. Since dual problem is derived from the Lagrangian relaxation, it provides a lower bound of the primal problem. Assuming under scenario $s$, we have the optimal solution $u^*$, that $(h_i - T_i x)^T u^* \leq \min ~z_s(x)$. 
 In the dual problem, we assume there are $n$ extreme points, $u_j, j = 1,\dots,n$ and $m$ extreme rays $r_k, k = 1,\dots,m$. We will discuss the constraints for extreme rays and extreme points, which are also known as feasibility cuts and optimality cuts, separately.
 \begin{enumerate}
     \item[1.] For any extreme rays $r_k$, we want it to be constrained by following:

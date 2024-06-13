@@ -1,0 +1,199 @@
+%% 
+%% Copyright 2007, 2008, 2009 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
+%% SP 2008/03/01
+
+%% Use the option review to obtain double line spacing
+\documentclass[preprint,review,11pt,authoryear]{elsarticle}
+\usepackage{natbib}
+\usepackage[hyphens]{url}
+% To achieve 1.5 line spacing
+\linespread{1.3}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amsmath,amssymb}
+% \usepackage[boxed,linesnumbered,ruled,algo2e]{algorithm2e}   % for algorithm box
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+%% The amsthm package provides extended theorem environments
+\usepackage{amsthm}
+%% For indicator function 1
+\usepackage{bm, bbm, mathrsfs}
+\usepackage{sansmath}
+%\usepackage{todonotes}
+%\usepackage[final,inline]{showlabels}
+\usepackage{jm,ks}
+\usepackage{float} % Required for using the H specifier
+\usepackage{enumitem}
+\usepackage{multicol}
+
+\usepackage{longtable}
+\usepackage{booktabs}
+\makeatletter
+\def\ps@pprintTitle{
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \let\@oddfoot\@empty
+  \let\@evenfoot\@oddfoot
+}
+\makeatother
+
+\begin{document}
+
+
+\begin{frontmatter}
+
+\title{Supplementary Material for Yuyang's Report}
+
+
+\author[mymainaddress1]{Yuyang Ma}
+\cortext[cor1]{Corresponding author. }
+ \ead{yuyang.ma@lehigh.edu}
+\address[mymainaddress1]{Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, PA,  USA}
+\end{frontmatter}
+
+\appendix
+\section{Formulating Drone Range} \label{app:drone_range}
+Parameter values used for drone range calculations are given in Table \ref{tab:drone_attributes} (\cite{dukkanci2021minimizing}).
+\begin{table}[h!]
+    \centering
+    \caption{Attributes of Small and Large Drones}
+    \begin{tabular}{|l|l|c|c|}
+    \hline
+    \textbf{Notation} & \textbf{Description} & \textbf{Small Drone} & \textbf{Large Drone} \\ \hline
+    \texttt{$\delta$}    & Profile Drag Coefficient                & 0.012                 & 0.012               \\ \hline
+    \texttt{$m_{uav}$}   & UAV Mass (kg)                           & 2.04                  & 10                  \\ \hline
+    \texttt{$m_{batt}$}  & Battery Mass (kg)                       & 0.89                  & 5.0                 \\ \hline
+    \texttt{$U_{tip}$}   & Tip Speed of the Rotor (m/s)            & 120                   & 150                 \\ \hline
+    \texttt{$s$}        & Rotor Solidity                           & 0.05                  & 0.08                \\ \hline
+    \texttt{$A$}        & Rotor Disk Area (m\textsuperscript{2})   & 0.503                 & 1.0                 \\ \hline
+    \texttt{$\omega$}    & Blade Angular Velocity (rad/s)          & 300                   & 250                 \\ \hline
+    \texttt{$r$}        & Rotor Radius (meters)                    & 0.4                   & 1.0                 \\ \hline
+    \texttt{$k$}        & Correction Factor to Induced Power       & 0.1                   & 0.15                \\ \hline
+    \texttt{$v_0$}     & Mean Rotor Induced Velocity in Hover (m/s) & 4.03                & 6.0                 \\ \hline
+    \texttt{$d_r$}     & Fuselage Drag Ratio                       & 0.6                   & 0.8                 \\ \hline
+    \texttt{$B_{mass}$}  & Energy Capacity per Mass of the Battery (J/kg) & 540000           & 540000              \\ \hline
+    \texttt{$\theta$}    & Depth of Discharge                      & 0.8                   & 0.8                 \\ \hline
+    \texttt{$max_{payload}$} & Max Payload (kg)                    & 2.0                   & 200                 \\ \hline
+    \texttt{$\rho$}    & Air Density (kg/$\text{m}^3$)                 & \multicolumn{2}{|c|}{0.012}              \\ \hline
+    \texttt{$f$}    & Safety factor to reserve energy                 & \multicolumn{2}{|c|}{1.2}              \\ \hline  
+    \end{tabular}
+    \label{tab:drone_attributes}
+\end{table}
+
+In paper, we mentioned that we use the following formula to calculate the maximal average speed of the drone:
+\begin{equation}
+    R(v) \triangleq \frac{\Theta}{\frac{\mu_1}{v} + \mu_2 v + \frac{\mu_3}{v^2} + \mu_4 v^2}, \label{eq:range_speed_formula}
+\end{equation}
+where $\mu_1, \mu_2, \mu_3, \mu_4$ are the constants related to the parameters of drones. The detailed calculation of these constants are as follows:
+\begin{align}
+    \Theta & = \frac{m_{batt}B_{mass}\theta}{f} \\
+    \mu_1 & = \frac{\delta}{8} \rho s A r^3 \omega^2 \\
+    \mu_2 & = \left(\frac{\delta}{8} \rho s A r^3 \omega^2\right) \times \frac{3}{U^2_{tip}} \\
+    \mu_3 & = (1+k) \frac{W^{3\slash2}}{\sqrt{2\rho A}} v_0 \\
+    \mu_4 & = \half d_0 \rho s A.
+\end{align}
+Notice that the parameter $W$ used in calculation of $\mu_3$ is the total weight of the drone. Package weight ($max_{payload}$) is only taken to account on the forward journey to a gathering point ($W = m_{uav} + m_{batt} + max_{payload}$), not in the return journey from a gathering point ($W = m_{uav} + m_{batt}$). Therefore, the refined calculation of $\mu_3$ is as follows:
+\begin{equation}
+    \mu_3 = (1+k)  \half \left( \frac{(m_{uav} + m_{batt} + max_{payload})^{3\slash2}}{\sqrt{2\rho A}} + \frac{(m_{uav} + m_{batt})^{3\slash2}}{\sqrt{2\rho A}} \right) v_0.
+\end{equation}
+
+\section{Recap of Benders Decomposition} \label{app:Benders_Recap}
+% \subsection{Recap of Benders Decomposition} \label{subsecapp:Benders_Recap}
+Benders decomposition was first proposed to solve large-scale linear programming problems, which is also a common technique to solve the two-stage stochastic programming problems as following:
+\begin{subequations}
+\begin{align*}
+          \min \quad & c^T x + Q(x) \\
+    \subjectto \quad & Ax = b \\
+                     &  x \geq 0,
+\end{align*}
+\end{subequations}
+where $Q(x)$ here refers to the second-stage problem, that $Q(x) = \Embb_\P[Q(x,\omega)]$, where $Q(x,\omega) = \min \limits_{y \in \Rmbb^p_+} \{ q^T y\,:\, Wy = h(\omega) - T(\omega)x \}$, and $\P$ is a known distribution of the uncertainty $\omega$. In practice, we want to treat the second-stage problem with discrete probability distribution, that saying, we have overall $S$ different scenarios. Each scenario $s = 1,\dots,S$ have a probability $\alpha_s$ to occur. To solve such problem, we can use Benders decomposition, where the stochastic programming is separated into two parts: the master problem and sub-problems. For the master problem, the formulation is:
+\begin{align*}
+          \min \quad & c^T x + q^T y \\
+    \subjectto \quad & Ax = b \\
+                     &  x \geq 0,
+\end{align*}
+We can observe that, compared to the formulation above, the master problem only retains the constraints for the first stage. The intuition behind Benders decomposition is to find the optimal solution by adding cuts to the master problem until the value of the objective function converges. For a feasible first-stage solution $x$, $c^T x$ becomes a fixed value, and the remaining part of the objective function is $q^T y$. After the first-stage, one of $S$ potential scenarios reveals. For a certain scenario $s = 1, \dots, S$, we will have a distinct sub-problem and its dual problem as follows:
+\vspace{-3em}
+\begin{multicols}{2}
+    \begin{align*}
+        \text{(P)} \quad  \min \quad & q^T y_s \\
+                    \subjectto \quad & Wy_s = h_s - T_s x, \\
+                                     &  y_s \geq 0,
+    \end{align*}
+    \columnbreak
+    
+    \begin{align*}
+        \text{(D)} \quad \max \quad & (h_s - T_s x)^T u \\
+                   \subjectto \quad & W^T u \leq q,
+    \end{align*}
+\end{multicols}
+\vspace{-3em}
+where $u$ is the dual variable. We use $z_s(x)$ to refer to the objective value primal problem with a given $x$. Since dual problem is derived from the Lagrangian relaxation, it  provides a lower bound of the primal problem. Assuming under scenario $s$, we have the optimal solution $u^*$, that $(h_i - T_i x)^T u^* \leq \min ~z_s(x)$. 
+In the dual problem, we assume there are $n$ extreme points, $u_j, j = 1,\dots,n$ and $m$ extreme rays $r_k, k = 1,\dots,m$. We will discuss the constraints for extreme rays and extreme points, which are also known as feasibility cuts and optimality cuts, separately.
+\begin{enumerate}
+    \item[1.] For any extreme rays $r_k$, we want it to be constrained by following:
+        \begin{equation*}
+            (h_s - T_s x)^T r_k \leq 0,
+        \end{equation*}
+        if this constraint is violated, which means $(h_s - T_s x)^T r_k > 0$, we just need to scale it with extreme large positive value and add it to the objective function, then the function value goes to $\infty$. If dual function is unbounded, the primal problem is infeasible, which means that under scenario $s$, there is no available decision $y$ to make with given $x$. Therefore, we want to avoid this $x$ by adding the constraint $(h_s - T_s x)^T r_k \leq 0$ to the master problem.
+        
+    \item[2.] For a linear programming problem over a polyhedron, the optimal solution (if any) has to occur on extreme points. According to the weak duality, if we have optimal solution $u^*_j$ for the dual problem, the following inequality
+        \begin{equation*}
+            (h_s - T_s x)^T u^*_j \leq z_s(x), \quad \forall s = 1,\dots,S,
+        \end{equation*}
+        holds for every feasible decision $y$ with given $x$. Therefore, we want to get the tighter lower approximation by keep adding the constraint $(h_s - T_s x)^T u^*_j \leq z_s(x)$ to the master problem, until the dual solution converges to the optimal solution to the primal problem.
+\end{enumerate}
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+% \subsection{Benders Decomposition in Mixed-Integer Programming (MIP)} \label{subsubsecapp:Benders_MIP}
+% Although Benders decomposition is a powerful tool to solve large-scale problem, it can not be directly applied to the mixed-integer programming problem. In the original Benders decomposition, the dual variables are required to generate both feasibility cuts and optimality cuts. However, in the mixed-integer programming, the dual variables are not well-defined for those constraints containing integer variables. 
+
+% For stochastic integer programs with binary first-stage decision variable, there are only a finite number of feasible first stage solutions. Let$ r = 1 \dots R$, index these feasible solutions. One integer optimality cut was proposed in \cite{laporte1993integer} as follows:
+% \begin{align}
+%     \theta \geq \left( Q_{r}(x) - L \right) \left( \sum_{i \in S_r} x_i - \sum_{i \notin S_r} x_i \right) - \left( Q_{r}(x) - L \right) (|S_r| - 1) + L, \label{eq:integer_benders_cut} 
+% \end{align}
+% where $x_i = 1, \forall i \in S_r$, $x_i = 0, \forall i \notin S_r$ are the elements $r$-th feasible solution. $Q_r(x)$ is the corresponding expected second-stage value. Notation $|S_r|$ refers to the cardinality of the $S_r$. The $L$ is the lower bound of the second-stage objective function, which can be calculated by solving the LP relaxation. The $\theta$ is an auxiliary variable introduced to approximate the value of $Q(x)$, and the resulting master problem is following:
+% \begin{subequations} 
+%     \begin{align*}
+%               \min \quad & c^T x + \theta \\
+%         \subjectto \quad & Ax = b   \tag{B.3} \label{formulation:new_Master}\\
+%                          \theta \geq & \left( Q_{r}(x) - L \right) \left( \sum_{i \in S_r} x_i - \sum_{i \notin S_r} x_i \right) - \left( Q_{r}(x) - L \right) (|S_r| - 1) + L, \quad r = 1 \dots R\\
+%                          & x \in \Zmbb^n_+, \theta \in \Rmbb,
+%     \end{align*}
+% \end{subequations}
+% where we assume that such stochastic programming problem has complete recourse, which means for every solution to the first-stage problem, the second-stage problem is always feasible. The cut (\ref{eq:integer_benders_cut}) is a valid cut for the problem incident with integer decision variables, which can be used to provide a lower bound of the objective function in a pure-integer case.
+
+% However, the cut (\ref{eq:integer_benders_cut}) is not tight when the second-stage problem is formulated as a MIP. Therefore, simply applying the cut (\ref{eq:integer_benders_cut}) to our problem cannot guarantee a good solution. So far, to the best of our knowledge, there is only one existing literature that provides a converging Bender decomposition algorithm for the mixed-integer programming problem, which is proposed by \cite{van2023converging}. 
+
+\end{document}
