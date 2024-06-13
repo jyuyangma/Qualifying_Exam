@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'temp/presentation_slide.blg'
+[82] biber-darwin:340> INFO - === Thu Jun 13, 2024, 08:28:25
+[102] Biber.pm:419> INFO - Reading 'temp/presentation_slide.bcf'
+[225] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[242] Biber.pm:4419> INFO - Processing section 0
+[253] Biber.pm:4610> INFO - Looking for bibtex file 'main.bib' for section 0
+[255] bibtex.pm:1713> INFO - LaTeX decoding ...
+[294] bibtex.pm:1519> INFO - Found BibTeX data source 'main.bib'
+[450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[450] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[450] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[474] bbl.pm:660> INFO - Writing 'temp/presentation_slide.bbl' with encoding 'UTF-8'
+[486] bbl.pm:763> INFO - Output to temp/presentation_slide.bbl
+[486] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/kw/x3_q4jfd7hg5q89wnds7ljyc0000gn/T/biber_tmp_s2ec/3b92c3a43883b50258e417775889aed6_49430.utf8, line 2, warning: 14 characters of junk seen at toplevel
+[486] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/kw/x3_q4jfd7hg5q89wnds7ljyc0000gn/T/biber_tmp_s2ec/3b92c3a43883b50258e417775889aed6_49430.utf8, line 14, warning: 13 characters of junk seen at toplevel
+[486] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/kw/x3_q4jfd7hg5q89wnds7ljyc0000gn/T/biber_tmp_s2ec/3b92c3a43883b50258e417775889aed6_49430.utf8, line 39, warning: 17 characters of junk seen at toplevel
+[486] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/kw/x3_q4jfd7hg5q89wnds7ljyc0000gn/T/biber_tmp_s2ec/3b92c3a43883b50258e417775889aed6_49430.utf8, line 132, warning: 12 characters of junk seen at toplevel
+[486] Biber.pm:133> INFO - WARNINGS: 4

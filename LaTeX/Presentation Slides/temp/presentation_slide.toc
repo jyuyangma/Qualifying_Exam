@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Problem Statement and Model Formulation}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Problem Statement}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mathematical Notation and Formulation}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Uncertain Wind Conditions}{16}{0}{2}
+\beamer@sectionintoc {3}{Solution Approaches}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sample Average Approximation}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Scenario Decomposition Algorithm (SDA)}{19}{0}{3}
+\beamer@subsectionintoc {3}{3}{Cluster-Based Heuristic Algorithm}{21}{0}{3}
+\beamer@sectionintoc {4}{Computational Experiments}{24}{0}{4}
+\beamer@sectionintoc {5}{Conclusion and Future Research Directions}{35}{0}{5}
+\beamer@sectionintoc {7}{Appendix}{42}{0}{6}
+\beamer@subsectionintoc {7}{1}{Benders Decomposition}{43}{0}{6}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.26)  12 JUN 2024 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.26)  12 JUN 2024 22:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1102,14 +1102,14 @@ Package pdftex.def Info: LU.png  used on input line 100.
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 126.
+Package pdftex.def Info: LU.png  used on input line 125.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [6
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 143.
+Package pdftex.def Info: LU.png  used on input line 142.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [7
 
@@ -1117,362 +1117,362 @@ Package pdftex.def Info: LU.png  used on input line 143.
 <Drone_delivery_system.png, id=340, 918.43124pt x 560.0925pt>
 File: Drone_delivery_system.png Graphic file (type png)
 <use Drone_delivery_system.png>
-Package pdftex.def Info: Drone_delivery_system.png  used on input line 155.
+Package pdftex.def Info: Drone_delivery_system.png  used on input line 154.
 (pdftex.def)             Requested size: 173.33496pt x 105.70079pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 155.
+Package pdftex.def Info: LU.png  used on input line 154.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [8
 
  <./Drone_delivery_system.png>] (d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.toc)
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 158.
+Package pdftex.def Info: LU.png  used on input line 157.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [9
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 169.
+Package pdftex.def Info: LU.png  used on input line 168.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [10
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 199.
+Package pdftex.def Info: LU.png  used on input line 198.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [11
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 218.
+Package pdftex.def Info: LU.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [12
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 241.
+Package pdftex.def Info: LU.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [13
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 265.
+Package pdftex.def Info: LU.png  used on input line 264.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [14
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 276.
+Package pdftex.def Info: LU.png  used on input line 275.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [15
 
 ]
-<figure_windspeed.png, id=643, 1316.92pt x 578.16pt>
+<figure_windspeed.png, id=641, 1316.92pt x 578.16pt>
 File: figure_windspeed.png Graphic file (type png)
 <use figure_windspeed.png>
-Package pdftex.def Info: figure_windspeed.png  used on input line 291.
+Package pdftex.def Info: figure_windspeed.png  used on input line 290.
 (pdftex.def)             Requested size: 216.67201pt x 95.11879pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 291.
+Package pdftex.def Info: LU.png  used on input line 290.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [16
 
  <./figure_windspeed.png>] (d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.toc)
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 293.
+Package pdftex.def Info: LU.png  used on input line 292.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [17
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 315.
+Package pdftex.def Info: LU.png  used on input line 314.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [18
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 340.
+Package pdftex.def Info: LU.png  used on input line 339.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [19
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 373.
+Package pdftex.def Info: LU.png  used on input line 372.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [20
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 387.
+Package pdftex.def Info: LU.png  used on input line 386.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [21
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 402.
+Package pdftex.def Info: LU.png  used on input line 401.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [22
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 412.
+Package pdftex.def Info: LU.png  used on input line 411.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [23
 
 ]
-Overfull \vbox (12.46556pt too high) detected at line 437
+Overfull \vbox (12.46556pt too high) detected at line 436
  []
 
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 437.
+Package pdftex.def Info: LU.png  used on input line 436.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [24
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 468.
+Package pdftex.def Info: LU.png  used on input line 467.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [25
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 477.
+Package pdftex.def Info: LU.png  used on input line 476.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [26
 
 ]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 487.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 486.
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 487.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 486.
 
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 487.
+Package pdftex.def Info: LU.png  used on input line 486.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [27
 
 ] (d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.toc)
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 489.
+Package pdftex.def Info: LU.png  used on input line 488.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [28
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 501.
+Package pdftex.def Info: LU.png  used on input line 500.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [29
 
 ]
-<eq_tab.png, id=1093, 891.33pt x 180.675pt>
+<eq_tab.png, id=1091, 891.33pt x 180.675pt>
 File: eq_tab.png Graphic file (type png)
 <use eq_tab.png>
-Package pdftex.def Info: eq_tab.png  used on input line 514.
+Package pdftex.def Info: eq_tab.png  used on input line 513.
 (pdftex.def)             Requested size: 346.67653pt x 70.27274pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 514.
+Package pdftex.def Info: LU.png  used on input line 513.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [30
 
  <./eq_tab.png>]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 524.
+Package pdftex.def Info: LU.png  used on input line 523.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [31
 
 ]
-<fig_performance_evaluation.png, id=1151, 1484.54625pt x 794.97pt>
+<fig_performance_evaluation.png, id=1149, 1484.54625pt x 794.97pt>
 File: fig_performance_evaluation.png Graphic file (type png)
 <use fig_performance_evaluation.png>
-Package pdftex.def Info: fig_performance_evaluation.png  used on input line 534.
+Package pdftex.def Info: fig_performance_evaluation.png  used on input line 533.
 (pdftex.def)             Requested size: 303.3395pt x 162.43617pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 534.
+Package pdftex.def Info: LU.png  used on input line 533.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [32
 
  <./fig_performance_evaluation.png>]
-<fig_largeStest.png, id=1180, 867.24pt x 97.36375pt>
+<fig_largeStest.png, id=1178, 867.24pt x 97.36375pt>
 File: fig_largeStest.png Graphic file (type png)
 <use fig_largeStest.png>
-Package pdftex.def Info: fig_largeStest.png  used on input line 549.
+Package pdftex.def Info: fig_largeStest.png  used on input line 548.
 (pdftex.def)             Requested size: 303.3395pt x 34.05553pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 549.
+Package pdftex.def Info: LU.png  used on input line 548.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [33
 
  <./fig_largeStest.png>]
-<fig_value_wind_uncertainty.png, id=1209, 603.25375pt x 436.63126pt>
+<fig_value_wind_uncertainty.png, id=1207, 603.25375pt x 436.63126pt>
 File: fig_value_wind_uncertainty.png Graphic file (type png)
 <use fig_value_wind_uncertainty.png>
-Package pdftex.def Info: fig_value_wind_uncertainty.png  used on input line 561.
+Package pdftex.def Info: fig_value_wind_uncertainty.png  used on input line 560.
 (pdftex.def)             Requested size: 151.67305pt x 109.77715pt.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 561.
+Package pdftex.def Info: LU.png  used on input line 560.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [34
 
  <./fig_value_wind_uncertainty.png>]
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 581.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 580.
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 581.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 580.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
-(Font)              size <3> substituted on input line 581.
+(Font)              size <3> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
-(Font)              size <3> substituted on input line 581.
+(Font)              size <3> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
-(Font)              size <3> substituted on input line 581.
+(Font)              size <3> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 581.
+(Font)              size <5> substituted on input line 580.
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 581.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 580.
 
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 581.
+Package pdftex.def Info: LU.png  used on input line 580.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [35
 
 ]
-<fig_fairness_test.png, id=1267, 982.67125pt x 458.71375pt>
+<fig_fairness_test.png, id=1265, 982.67125pt x 458.71375pt>
 File: fig_fairness_test.png Graphic file (type png)
 <use fig_fairness_test.png>
-Package pdftex.def Info: fig_fairness_test.png  used on input line 595.
+Package pdftex.def Info: fig_fairness_test.png  used on input line 594.
 (pdftex.def)             Requested size: 260.00905pt x 121.36958pt.
 
-Overfull \vbox (3.68404pt too high) detected at line 595
+Overfull \vbox (3.68404pt too high) detected at line 594
  []
 
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 595.
+Package pdftex.def Info: LU.png  used on input line 594.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [36
 
  <./fig_fairness_test.png>]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 612.
+Package pdftex.def Info: LU.png  used on input line 611.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [37
 
 ] (d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.toc)
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 614.
+Package pdftex.def Info: LU.png  used on input line 613.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [38
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 624.
+Package pdftex.def Info: LU.png  used on input line 623.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [39
 
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 634.
+Package pdftex.def Info: LU.png  used on input line 633.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [40
 
 ]
-LaTeX Font Info:    Trying to load font information for U+dutchcal on input line 651.
+LaTeX Font Info:    Trying to load font information for U+dutchcal on input line 650.
  (C:\Users\Yuyang\AppData\Roaming\MiKTeX\tex/latex/dutchcal\udutchcal.fd
 File: udutchcal.fd 2011/06/16 Fontinst v1.933 font definitions for U/dutchcal.
 )
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 10.95pt on input line 651.
+(Font)              scaled to size 10.95pt on input line 650.
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 8.0pt on input line 651.
+(Font)              scaled to size 8.0pt on input line 650.
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 6.0pt on input line 651.
+(Font)              scaled to size 6.0pt on input line 650.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 651.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 650.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 651.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 650.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 651.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 650.
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 651.
+Package pdftex.def Info: LU.png  used on input line 650.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [41
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 739.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 738.
 
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 739.
+Package pdftex.def Info: LU.png  used on input line 738.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 [42
 
  <C:/Users/Yuyang/AppData/Roaming/MiKTeX/tex/latex/beamer/beamericonarticle.pdf>]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 739.
+Package pdftex.def Info: LU.png  used on input line 738.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [43
 
@@ -1480,7 +1480,7 @@ Package pdftex.def Info: LU.png  used on input line 739.
 ]
 File: LU.png Graphic file (type png)
 <use LU.png>
-Package pdftex.def Info: LU.png  used on input line 739.
+Package pdftex.def Info: LU.png  used on input line 738.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
  [44
 
@@ -1512,17 +1512,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31389 strings out of 474462
- 610886 string characters out of 5752695
+ 31388 strings out of 474462
+ 610861 string characters out of 5752695
  1954998 words of memory out of 5000000
- 52962 multiletter control sequences out of 15000+600000
- 580388 words of font info for 117 fonts, out of 8000000 for 9000
+ 52961 multiletter control sequences out of 15000+600000
+ 580094 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,787b,2161s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Yuyang/AppData/Roaming/MiKTeX/fonts/type1/public/dutchcal/DutchCalReg.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.pdf" (44 pages, 2025948 bytes).
+<C:/Users/Yuyang/AppData/Roaming/MiKTeX/fonts/type1/public/dutchcal/DutchCalReg.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on "d:\OneDrive - Lehigh University\Learning Materials\Lehigh University\Qualify Exam\LaTeX\Presentation Slides\temp\main.pdf" (44 pages, 2006857 bytes).
 PDF statistics:
- 1706 PDF objects out of 1728 (max. 8388607)
+ 1696 PDF objects out of 1728 (max. 8388607)
  150 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 

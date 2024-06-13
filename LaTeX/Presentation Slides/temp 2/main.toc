@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Problem Statement and Model Formulation}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Problem Statement}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mathematical Notation and Formulation}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Uncertain Wind Conditions}{16}{0}{2}
+\beamer@sectionintoc {3}{Solution Approaches}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sample Average Approximation}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{S

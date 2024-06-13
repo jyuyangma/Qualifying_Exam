@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'temp/main.blg'
+[72] biber-MSWIN64:340> INFO - === 
+[101] Biber.pm:419> INFO - Reading 'temp/main.bcf'
+[180] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[188] Biber.pm:4419> INFO - Processing section 0
+[196] Biber.pm:4610> INFO - Looking for bibtex file 'main.bib' for section 0
+[247] bibtex.pm:1713> INFO - LaTeX decoding ...
+[274] bibtex.pm:1519> INFO - Found BibTeX data source 'main.bib'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[328] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[328] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[338] bbl.pm:660> INFO - Writing 'temp/main.bbl' with encoding 'UTF-8'
+[343] bbl.pm:763> INFO - Output to temp/main.bbl
+[343] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Yuyang\AppData\Local\Temp\biber_tmp_H7zw\3b92c3a43883b50258e417775889aed6_28708.utf8, line 2, warning: 14 characters of junk seen at toplevel
+[343] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Yuyang\AppData\Local\Temp\biber_tmp_H7zw\3b92c3a43883b50258e417775889aed6_28708.utf8, line 14, warning: 13 characters of junk seen at toplevel
+[343] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Yuyang\AppData\Local\Temp\biber_tmp_H7zw\3b92c3a43883b50258e417775889aed6_28708.utf8, line 39, warning: 17 characters of junk seen at toplevel
+[343] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Yuyang\AppData\Local\Temp\biber_tmp_H7zw\3b92c3a43883b50258e417775889aed6_28708.utf8, line 132, warning: 12 characters of junk seen at toplevel
+[343] Biber.pm:133> INFO - WARNINGS: 4

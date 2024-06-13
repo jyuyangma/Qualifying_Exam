@@ -74,7 +74,7 @@ Conditions}
       \item \textbf{UAVs for Humanitarian Logistics:} Exploration by leading companies like DHL \footcite{dhl2018drone} and Zipline \footcite{Zipline2020} for medicine deliveries, highlighting the growing interest in drone technology.
       \item \textbf{Technological Advances:} Significant improvements in drone materials, sensing and coordination algorithms, battery life, and regulatory frameworks are propelling UAV adoption.
       \item \textbf{Facility Location Challenge:} The central issue of limited range and payload capacity of drones necessitates strategic planning for the placement of depots or launching sites.
-      \item \textbf{Solution Model:} Introduction of a two-stage stochastic programming model focusing on selecting optimal locations for drone launching facilities, and size of drones' fleet to meet spatially distributed affected people' demands efficiently. The detailed formulation will be shown in next section.
+      \item \textbf{Solution Model:} Introduction of a two-stage stochastic programming model focusing on selecting optimal locations for drone launching facilities, and size of drones' fleet to meet spatially distributed affected people's demands efficiently. The detailed formulation will be shown in next section.
     \end{itemize}
 \end{frame}
 
@@ -102,25 +102,24 @@ Conditions}
 % Slide 3: Literature Review
 \begin{frame}
 \frametitle{Literature Review}
-\footnotesize
     \begin{enumerate}[label=\arabic*.]
         \item \textbf{Routing Problem:} 
         \begin{itemize}[label=$\star$]
-          \item Murray and Chu (2015) \footcite{murray2015flying} proposed two kinds of routing problems:
+          \item Murray and Chu (2015) \cite{murray2015flying} proposed two kinds of routing problems:
           \begin{itemize}[label=$\diamond$]
             \item \text{Flying Sidekick Traveling Salesman Problem (FSTSP)}
             \item \text{Parallel Drone-Scheduling Traveling Salesman Problem}
           \end{itemize}
-          \item Murray and Raj (2020)\footcite{murray2020multiple} extended the FSTSP with multiple drones during the delivery.
+          \item Murray and Raj (2020)\cite{murray2020multiple} extended the FSTSP with multiple drones during the delivery.
         \end{itemize}
         \item \textbf{Facility Location Problem:}
         \begin{itemize}[label=$\diamond$] 
-          \item Chauhan et al. (2019) \footcite{chauhan2019maximum} proposed a maximal covering facility location model with drones (MCFLPD).
+          \item Chauhan et al. (2019) \cite{chauhan2019maximum} proposed a maximal covering facility location model with drones (MCFLPD).
         \end{itemize}
         \item \textbf{Delivery with Uncertainties:}
         \begin{itemize}[label=$\diamond$]
-          \item Zhu et al. (2022) \footcite{zhu2022two} incorporated demand uncertainty with a two-stage robust optimization model.
-          \item Cheng et al. (2024) \footcite{cheng2024robust} considered uncertain wind conditions in a drone delivery system.
+          \item Zhu et al. (2022) \cite{zhu2022two} incorporated demand uncertainty with a two-stage robust optimization model.
+          \item Cheng et al. (2024) \cite{cheng2024robust} considered uncertain wind conditions in a drone delivery system.
         \end{itemize}
     \end{enumerate}
 \end{frame}
@@ -138,8 +137,22 @@ Conditions}
         \item Proposed a scenario decomposition algorithm (SDA) to solve the problem
         \item Conducted a real-world case study to validate the model
       \end{enumerate}
-    \item \textbf{Room of Improvements:} Fairness issues in distribution, weather uncertainties, unreal assumptions, etc.
+    \item \textbf{Room for Improvements:} Fairness issues in distribution, weather uncertainties, unrealistic assumptions, etc.
   \end{itemize}
+\end{frame}
+
+% Slide 6: Problem Statement and Model Formulation
+\section{Problem Statement and Model Formulation}
+\subsection{Problem Statement}
+\begin{frame}
+    \frametitle{Problem Statement}
+    In this study, we extend the model proposed by Dukkanci et al. (2023) \footcites{dukkanci2023drones}. The objective is to minimize the total cost of the drone delivery system while ensuring that the unmet demand of affected people is minimized. The detailed statement is listed as follows:
+    \begin{enumerate}[label=\arabic*.]
+        \item Given a set of locations for gathering points $I$, potential launch points $L$ and potential depots $D$. Sets of available fully-charged drones are: $K_{SD}$ for small drones and $K_{LD}$ for large drones. 
+        \item Decide to open at most $p$ launch points and $e$ depots. Assign each open launch point to one open depot.
+        \item Disaster (earthquake in our study) happens. Damage percentage of road networks, demands at gathering points, and wind conditions are observed.
+        \item Determine the size of drone fleets. Assign drones to open facilities (launch points or depots) for serving the gathering points. All deliveries must be finished within $T$ hours. 
+    \end{enumerate}
 \end{frame}
 
 % Slide 5: A sample graph
@@ -151,21 +164,6 @@ Conditions}
         \caption{Two-Echelon Delivery System \footcite{dukkanci2023drones}}
         \label{fig:delivery_system}
     \end{figure}
-    
-\end{frame}
-
-% Slide 6: Problem Statement and Model Formulation
-\section{Problem Statement and Model Formulation}
-\subsection{Problem Statement}
-\begin{frame}
-    \frametitle{Problem Statement}
-    In this study, we extend the model proposed by Dukkanci et al. (2023) \footcites{dukkanci2023drones}. The objective is to minimize the total cost of the drone delivery system while ensuring that the unmet demand of affected people is minimized. The detailed statement is listed as follows:
-    \begin{enumerate}[label=\arabic*.]
-        \item Given a set of locations for gathering points $I$, launch points $L$ and depots $D$. Sets of available fully-charged drones are: $K_{SD}$ for small drones and $K_{LD}$ for large drones. 
-        \item Decide to open at most $p$ launch points and $e$ depots. Assign each open launch point to one open depot.
-        \item Disaster (earthquake in our study) happens. Damage percentage of road networks, demands at gathering points, and wind conditions are observed.
-        \item Determine the size of drone fleets. Assign drones to open facilities (launch points or depots) for serving the gathering points. All deliveries must be finished within $T$ hours. 
-    \end{enumerate}
 \end{frame}
 
 \subsection{Mathematical Notation and Formulation}
@@ -210,7 +208,7 @@ Conditions}
         \item \textbf{Second-Stage Decision Variables}
         \begin{itemize}
             \item $g_k$: 1, if a drone $k \in \{K_{SD} \cup K_{LD}\}$ is used, 0 otherwise
-            \item $z_{ilk}$: 1, if a small drone $k \in K_{SD}$ is assigned to serve point $i \in I$ from location $l \in \{L \cup D\}$, 0 otherwise
+            \item $x_{ilk}$: 1, if a small drone $k \in K_{SD}$ is assigned to serve point $i \in I$ from location $l \in \{L \cup D\}$, 0 otherwise
             \item $y_{idk}$: 1, if a large drone $k \in K_{LD}$ is assigned to serve point $i \in I$ from depot $d \in D$, 0 otherwise
             \item $o_i$: Unmet demand for gathering point $i \in I$
         \end{itemize}
@@ -222,21 +220,21 @@ Conditions}
 \frametitle{Two-Stage Stochastic Programming I}
 \begin{alertblock}{First-Stage Problem}
 \small
-Objective: total cost of using drones and the penalty of unmet demand
+Objective: minimize the expectation the second stage's cost $Q$.
 \scriptsize
 \vspace{-3pt}
     \begin{subequations} \label{formulation:1stStage}
         \begin{align}
             \min \quad & \Embb_{\Pmbb} \left[ Q(u,v,w,\xi) \right] && \label{objective:1stStageObj} \\
-            \subjectto \quad & \sum_{d \in D} u_d \leq e     && \label{constraint:Num_Depot} \\
-                             & \sum_{l \in L} v_l \leq p     && \label{constraint:Num_Launch} \\
+            \subjectto \quad & \sum_{d \in D} u_d \leq e,     && \label{constraint:Num_Depot} \\
+                             & \sum_{l \in L} v_l \leq p,     && \label{constraint:Num_Launch} \\
                              & \sum_{d \in D} w_{ld} = v_l,  && \forall l \in L \label{constraint:LaunchPointtoOneDepot} \\
                              & w_{ld}, u_d, v_l \in \{0,1\}. && \forall d \in D, l \in L \label{constraint:wBinary}
         \end{align}
     \end{subequations}
 \end{alertblock}
-\begin{block}{Notations}
-    The uncertainties in the second-stage are indicated as the parameter $\xi \in \Xi$, where $\xi = \left( \omega, q , v^{wind} , \alpha^{wind} \right)$. $\Pmbb$ a known probability distribution of $\xi$.   
+\begin{block}{Notation}
+    The uncertainties in the second-stage are indicated as the parameter $\xi \in \Xi$, where $\xi = \left( \omega, q , v^{wind} , \alpha^{wind} \right)$, and $\Pmbb$ is a known probability distribution of $\xi$.   
 \end{block}
 \end{frame}
 
@@ -245,12 +243,12 @@ Objective: total cost of using drones and the penalty of unmet demand
     \frametitle{Two-Stage Stochastic Programming II}
     \begin{alertblock}{Second-Stage Problem}
     \small
-    Objective: minimize the expectation the second stage's cost $Q$.
+    Objective: total cost of using drones and the penalty of unmet demand.
     \tiny
     \vspace{-5pt}
     \begin{subequations} \label{formulation:2ndStage}
         \begin{align}
-            Q[u,v,w] :=  \quad \min \quad & \sum_{i \in I} \pi o_i + \sum_{k \in K_{SD}} c_{SD} g_k + \sum_{k \in K_{LD}} c_{LD} g_k & & \label{objective:2ndStageObj} \\
+            Q[u,v,w,\xi] :=  \quad \min \quad & \sum_{i \in I} \pi o_i + \sum_{k \in K_{SD}} c_{SD} g_k + \sum_{k \in K_{LD}} c_{LD} g_k & & \label{objective:2ndStageObj} \\
                          \subjectto \quad & \text{Constraints for open depots, launch points, and using drones} \\
                                           & \sum_{k \in K_{SD}} \sum_{i \in I} q_i x_{ilk} \leq Q_T v_l && \forall l \in L \label{constraint:TrucksCapacity} \\
                                           & q_i - \sum_{k \in K_{SD}}\sum_{l \in \{L \cup D\}} Q_{SD} x_{ilk} - \sum_{k \in K_{LD}}\sum_{d \in D} Q_{LD} y_{idk} \leq o_i && \forall i \in I \label{constraint:UnmetDemand} \\
@@ -411,81 +409,6 @@ Full steps of the cluster-based heuristic algorithm are listed as follows:
     \end{enumerate}
 \end{frame}
 
-\subsection{Benders Decomposition}
-\begin{frame}{Recap of Benders Decomposition}
-Using Benders decomposition, the two-stage stochastic programming problem can be decomposed into a master problem and a subproblem. For the master problem, the formulation is:
-\begin{align*}
-          \min \quad & c^T x + q^T y \\
-    \subjectto \quad & Ax = b \\
-                     &  x \geq 0.
-\end{align*}
-For a feasible first-stage solution $x$, $c^T x$ becomes a fixed value, and the remaining part of the objective function is $q^T y$. For a certain scenario $s = 1, \dots, S$, we will have a distinct sub-problem and its dual problem as follows:
-\vspace{-1.5em}
-\begin{multicols}{2}
-    \begin{align*}
-        \text{(P)} \quad  \min \quad & q^T y_s \\
-                    \subjectto \quad & Wy_s = h_s - T_s x, \\
-                                     &  y_s \geq 0,
-    \end{align*}
-    \columnbreak
-    
-    \begin{align*}
-        \text{(D)} \quad \max \quad & (h_s - T_s x)^T u \\
-                   \subjectto \quad & W^T u \leq q.
-    \end{align*}
-\end{multicols}
-\end{frame}
-
-\begin{frame}{Benders Cuts}
-Assuming under scenario $s$, we have the optimal solution $u^*$, that $(h_i - T_i x)^T u^* \leq \min ~z_s(x)$.  In the dual problem, we assume there are $n$ extreme points, $u_j, j = 1,\dots,n$ and $m$ extreme rays $r_k, k = 1,\dots,m$.
-\vspace{1em}
-\begin{columns}[c]
-
-    \column{0.49\textwidth}
-    For any extreme rays $r_k$, we want it to be constrained by following:
-    \begin{equation*}
-        (h_s - T_s x)^T r_k \leq 0,
-    \end{equation*}
-    \begin{itemize}[label=$\diamond$]
-    \item if $(h_s - T_s x)^T r_k > 0$, the function value goes to $\infty$;
-    \item \textbf{Unbounded} Dual $\Rightarrow$ \textbf{Infeasible} Primal;
-    \item Avoid such $x$ by adding the constraint $(h_s - T_s x)^T r_k \leq 0$ to the master problem.
-    \end{itemize}
-    
-    \column{0.02\textwidth}
-        \rule{.1mm}{0.6\textheight}
-    
-    \column{0.49\textwidth}
-    For an optimal solution $u^*_j$ for the dual problem, the following inequality:
-    \begin{equation*}
-        (h_s - T_s x)^T u^*_j \leq z_s(x), \quad \forall s = 1,\dots,S,
-    \end{equation*}
-    holds for every feasible decision $y$ with given $x$.
-    \begin{itemize}[label=$\diamond$]
-        \item Get the tighter lower approximation by keep adding the constraint $(h_s - T_s x)^T u^*_j \leq z_s(x)$ to the master problem
-    \end{itemize}
-\end{columns}  
-\end{frame}
-
-\begin{frame}{Benders decomposition in Mixed-Integer Programming}
-However, Benders decomposition generally does not work well in mixed-integer programming problems. The main reasons are:
-\begin{itemize}[label=$\star$]
-    \item dual variables, which are required to derive both optimality cuts and feasibility cuts, are not well-defined for integer variables;
-    \item the performance of Benders decomposition is highly dependent on the quality of the benders cuts generated;
-\end{itemize}
-Since Benders decomposition was proposed, several studies has been conducted to address the issues mentioned above. One example will be shown in the next slide.
-\end{frame}
-
-\begin{frame}{Benders Decomposition with Integer Variables}
-For the two-stage SP with binary first-stage decision variables, \cite{laporte1993integer} proposed the following cuts:
-\begin{align}
-\scriptsize
-    \theta \geq \left( Q_{r}(x) - L \right) \left( \sum_{i \in S_r} x_i - \sum_{i \notin S_r} x_i \right) - \left( Q_{r}(x) - L \right) (|S_r| - 1) + L, \label{eq:integer_benders_cut} 
-\end{align}
-where $r = 1 \dots R$ index feasible first-stage solutions and $x$ refer to the $r$-th feasible solution. $x_i = 1, \forall i \in S_r$, $x_i = 0, \forall i \notin S_r$. $Q_r(x)$ is the corresponding expected second-stage value. Notation $|S_r|$ refers to the cardinality of the $S_r$. The $L$ is the lower bound of the second-stage objective function. \\
-However, in a SP model with \hltblue{mixed-integer decision variables in the second stage}, this cut is \hltred{not tight enough} to valid the ideal strong duality. Therefore, due to limit of time and complexity of implementation, we do not further consider Benders decomposition in this study.
-\end{frame}
-
 \section{Computational Experiments}
 \begin{frame}{Road Distance after Earthquake I}
 In Erbeyoglu and Bilge (2020) \footcite{erbeyouglu2020earthquake}, they evaluated four intensity predictive models that can be applied to estimate the damage for all potential earthquakes:
@@ -511,6 +434,44 @@ The average of the intensity values from the formulas \eqref{eq:MSK_1} - \eqref{
 \end{figure}
 \vspace{-5pt}
 We calculate the damage percentages of each depot/launch points and consider their \hltred{average} and \hltblue{increase the road distance by the average}. 
+\end{frame}
+
+\begin{frame}{Data Generating}
+    \begin{itemize}
+    \item \textbf{Data Generating:}
+        \begin{itemize}[label=$\star$]
+            \scriptsize
+            \item Due to the unavailability of detailed realistic data, we generate the dataset using Python's random function.
+            \item The dataset is based on a $300 \times 300$ grid, with each unit distance representing 1 km.
+            \item Locations of gathering points, launch points, and depots are predetermined.
+        \end{itemize}
+    
+    \item \textbf{Generated Locations}
+        \begin{itemize}[label=$\star$]
+            \scriptsize
+            \item 25 candidate locations for launch points.
+            \item 10 candidate locations for depots.
+            \item 40 gathering points (same as in \cite{dukkanci2023drones}).
+            \item Non-overlapping and fixed locations across different scenarios.
+        \end{itemize}
+    
+    \item \textbf{Uncertain Parameters}
+        \begin{itemize}[label=$\star$]
+            \scriptsize
+            \item 12 different scenarios, as used in \cite{dukkanci2023drones}.
+            \item \textbf{Wind Condition:}
+            \begin{itemize}[label=$\diamond$]
+                \item Speed: $U(0,20)$ km/hr.
+                \item Direction: $U(0,2\pi)$.
+            \end{itemize}
+            \item \textbf{Demand at Gathering Points:}
+            \begin{itemize}[label=$\diamond$]
+                \item Demand: $U(0.02,20)$ kg.
+                \item Based on data from \cite{dukkanci2023drones}.
+            \end{itemize}
+            \item Earthquake information will be detailed in the next section.
+        \end{itemize}
+    \end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{Performance Evaluation for SDA and Heuristic Algorithm}
@@ -556,6 +517,7 @@ To further verify the conclusion, we conducted a large scenario test. For 3 inde
     \caption{\small Test Results Comparison: Original Model vs. Model w. Weather Uncertainty}
     \label{fig:weather_uncertainty}
 \end{figure}
+where $o_s$ refers to the average unmet demand for each scenario $s$. \\
 \textbf{Conclusion:} the results show that considering weather uncertainty in the model leads to lower objective value and lower average unmet demand.
 
 \end{frame}
@@ -573,7 +535,7 @@ In this study, we further consider the fairness issue in the problem. To integra
     \item \textbf{Penalty Term of Unfairness in Objective Function:} \\
     \begin{equation}
     \scriptsize
-        \min \quad \frac{1}{|S|} \sum_{s \in S} \left(\sum_{i \in I} \pi o_{s,i} + \sum_{k \in K_{SD}} c_{SD} g_{s,k} + \sum_{k \in K_{LD}} c_{LD} g_{s,k} + \frac{1}{\mu} \left( \max_{i \in I} o_{s,i} - \min_{i \in I} o_{s,i} \right) \right),
+        \min \quad \frac{1}{|S|} \sum_{s \in S} \left(\sum_{i \in I} \pi o_{s,i} + \sum_{k \in K_{SD}} c_{SD} g_{s,k} + \sum_{k \in K_{LD}} c_{LD} g_{s,k} + \mu \left( \max_{i \in I} o_{s,i} - \min_{i \in I} o_{s,i} \right) \right),
         \label{eq:fairness_objective}
     \end{equation}
     The extra term penalizes the maximal difference in unmet demand among gathering points for each scenario.
@@ -736,6 +698,82 @@ Despite the achievements in this study, there are still some aspects that need t
 % \bibliographystyle{apalike}
 % \bibliography{main.bib} 
     \printbibliography
+\end{frame}
+
+\section{Appendix}
+\subsection{Benders Decomposition}
+\begin{frame}{Recap of Benders Decomposition}
+Using Benders decomposition, the two-stage stochastic programming problem can be decomposed into a master problem and a subproblem. For the master problem, the formulation is:
+\begin{align*}
+          \min \quad & c^T x + q^T y \\
+    \subjectto \quad & Ax = b \\
+                     &  x \geq 0.
+\end{align*}
+For a feasible first-stage solution $x$, $c^T x$ becomes a fixed value, and the remaining part of the objective function is $q^T y$. For a certain scenario $s = 1, \dots, S$, we will have a distinct sub-problem and its dual problem as follows:
+\vspace{-1.5em}
+\begin{multicols}{2}
+    \begin{align*}
+        \text{(P)} \quad  \min \quad & q^T y_s \\
+                    \subjectto \quad & Wy_s = h_s - T_s x, \\
+                                     &  y_s \geq 0,
+    \end{align*}
+    \columnbreak
+    
+    \begin{align*}
+        \text{(D)} \quad \max \quad & (h_s - T_s x)^T u \\
+                   \subjectto \quad & W^T u \leq q.
+    \end{align*}
+\end{multicols}
+\end{frame}
+
+\begin{frame}{Benders Cuts}
+    Assuming under scenario $s$, we have the optimal solution $u^*$, that $(h_i - T_i x)^T u^* \leq \min ~z_s(x)$.  In the dual problem, we assume there are $n$ extreme points, $u_j, j = 1,\dots,n$ and $m$ extreme rays $r_k, k = 1,\dots,m$.
+    \vspace{1em}
+    \begin{columns}[c]
+    
+        \column{0.49\textwidth}
+        For any extreme rays $r_k$, we want it to be constrained by following:
+        \begin{equation*}
+            (h_s - T_s x)^T r_k \leq 0,
+        \end{equation*}
+        \begin{itemize}[label=$\diamond$]
+        \item if $(h_s - T_s x)^T r_k > 0$, the function value goes to $\infty$;
+        \item \textbf{Unbounded} Dual $\Rightarrow$ \textbf{Infeasible} Primal;
+        \item Avoid such $x$ by adding the constraint $(h_s - T_s x)^T r_k \leq 0$ to the master problem.
+        \end{itemize}
+        
+        \column{0.02\textwidth}
+            \rule{.1mm}{0.6\textheight}
+        
+        \column{0.49\textwidth}
+        For an optimal solution $u^*_j$ for the dual problem, the following inequality:
+        \begin{equation*}
+            (h_s - T_s x)^T u^*_j \leq z_s(x), \quad \forall s = 1,\dots,S,
+        \end{equation*}
+        holds for every feasible decision $y$ with given $x$.
+        \begin{itemize}[label=$\diamond$]
+            \item Get the tighter lower approximation by keep adding the constraint $(h_s - T_s x)^T u^*_j \leq z_s(x)$ to the master problem
+        \end{itemize}
+    \end{columns}  
+    \end{frame}
+    
+    \begin{frame}{Benders decomposition in Mixed-Integer Programming}
+    However, Benders decomposition generally does not work well in mixed-integer programming problems. The main reasons are:
+    \begin{itemize}[label=$\star$]
+        \item dual variables, which are required to derive both optimality cuts and feasibility cuts, are not well-defined for integer variables;
+        \item the performance of Benders decomposition is highly dependent on the quality of the benders cuts generated;
+    \end{itemize}
+    Since Benders decomposition was proposed, several studies has been conducted to address the issues mentioned above. One example will be shown in the next slide.
+    \end{frame}
+    
+    \begin{frame}{Benders Decomposition with Integer Variables}
+    For the two-stage SP with binary first-stage decision variables, \cite{laporte1993integer} proposed the following cuts:
+    \begin{align}
+    \scriptsize
+        \theta \geq \left( Q_{r}(x) - L \right) \left( \sum_{i \in S_r} x_i - \sum_{i \notin S_r} x_i \right) - \left( Q_{r}(x) - L \right) (|S_r| - 1) + L, \label{eq:integer_benders_cut} 
+    \end{align}
+    where $r = 1 \dots R$ index feasible first-stage solutions and $x$ refer to the $r$-th feasible solution. $x_i = 1, \forall i \in S_r$, $x_i = 0, \forall i \notin S_r$. $Q_r(x)$ is the corresponding expected second-stage value. Notation $|S_r|$ refers to the cardinality of the $S_r$. The $L$ is the lower bound of the second-stage objective function. \\
+    However, in a SP model with \hltblue{mixed-integer decision variables in the second stage}, this cut is \hltred{not tight enough} to valid the ideal strong duality. Therefore, due to limit of time and complexity of implementation, we do not further consider Benders decomposition in this study.
 \end{frame}
 
 \end{document}

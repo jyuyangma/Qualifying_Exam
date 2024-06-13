@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber temp/main"] 1718235139.7556 "temp/main.bcf" "temp/main.bbl" "temp/main" 1718235572.61015 0
+["biber temp/main"] 1718235139.7556 "temp/main.bcf" "temp/main.bbl" "temp/main" 1718246954.22499 0
   "main.bib" 1718218522 8168 a872618b7bf8199be3612dc2ebf57c47 ""
-  "temp/main.bcf" 1718235572 108834 42357e7a44ac8b4debb4fe1749fd8ae8 "pdflatex"
+  "temp/main.bcf" 1718246953 108834 42357e7a44ac8b4debb4fe1749fd8ae8 "pdflatex"
   (generated)
   "temp/main.bbl"
   "temp/main.blg"
   (rewritten before read)
-["pdflatex"] 1718235569.23022 "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Presentation Slides/main.tex" "main.pdf" "main" 1718235572.61062 0
+["pdflatex"] 1718246950.94024 "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Presentation Slides/main.tex" "main.pdf" "main" 1718246954.22545 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1234365220 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -43,7 +43,6 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1247596667 36094 798f80770b3b148ceedd006d487db67c ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1247596666 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1247596666 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
@@ -56,7 +55,6 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb" 1247596666 32915 7bf7720c61a5b3a7ff25b0964421c9b6 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1247596666 32442 c975af247b6702f7ca0c299af3616b80 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb" 1247596670 30457 bc0868ebece724ed7c3d37e3d9bff7bd ""
   "C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb" 1247596670 30273 87a352d78b6810ae5cfdc68d2fb827b2 ""
@@ -266,7 +264,7 @@
   "C:/Users/Yuyang/AppData/Roaming/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "Drone_delivery_system.png" 1717686600 103725 26d7e990fc31e90f958bbd05bbc5d180 ""
   "LU.png" 1718117713 122449 452851ddfbc73f33b5144540f2637365 ""
-  "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Presentation Slides/main.tex" 1718235568 38593 572d53ceeeaeb97d35d13a0f0e0de804 ""
+  "d:/OneDrive - Lehigh University/Learning Materials/Lehigh University/Qualify Exam/LaTeX/Presentation Slides/main.tex" 1718246950 38588 c403a00748525dbfc01461e61065db70 ""
   "eq_tab.png" 1717960223 94991 a35db9a49c9819eefe22929651f78b4b ""
   "fig_fairness_test.png" 1718230678 220834 ce225ea7e213872f2753d475632c35df ""
   "fig_largeStest.png" 1718228784 62688 a335e94ee4c040086c65babb95385bb1 ""
@@ -274,13 +272,13 @@
   "fig_value_wind_uncertainty.png" 1718229620 142848 ee9f2cfdd334b3f9e5d451425c5ddf0e ""
   "figure_windspeed.png" 1716343043 102404 954560bbd4c295e85a29d8bd6e7c7b7c ""
   "jm.sty" 1716303985 12779 54d85ca31c7abf4055b140aab2261062 ""
-  "main.tex" 1718235568 38593 572d53ceeeaeb97d35d13a0f0e0de804 ""
-  "temp/main.aux" 1718235572 18431 cd1aa0c6b2975490a9fd724a3c9f735e "pdflatex"
+  "main.tex" 1718246950 38588 c403a00748525dbfc01461e61065db70 ""
+  "temp/main.aux" 1718246953 18421 0afca3bda544997ef4d53b11428a9496 "pdflatex"
   "temp/main.bbl" 1718235141 18882 85afdb7d0eb0925cd5fc0c5097e8d300 "biber temp/main"
-  "temp/main.nav" 1718235572 6774 fbf1bf8710467f8ddb3f6cc46ba06cbe "pdflatex"
-  "temp/main.out" 1718235572 2471 f210e121deb8dea1497b56fdba7f7365 "pdflatex"
-  "temp/main.run.xml" 1718235572 2305 7d78890bd7c48e4d5c0c7a1a1fb94149 "pdflatex"
-  "temp/main.toc" 1718235572 819 42ac1fb3af5a714c6b5f796bed87b257 "pdflatex"
+  "temp/main.nav" 1718246954 6774 fbf1bf8710467f8ddb3f6cc46ba06cbe "pdflatex"
+  "temp/main.out" 1718246953 2471 f210e121deb8dea1497b56fdba7f7365 "pdflatex"
+  "temp/main.run.xml" 1718246954 2305 7d78890bd7c48e4d5c0c7a1a1fb94149 "pdflatex"
+  "temp/main.toc" 1718246954 819 42ac1fb3af5a714c6b5f796bed87b257 "pdflatex"
   (generated)
   "main.pdf"
   "temp/main.aux"
